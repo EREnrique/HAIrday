@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1BB7504820A4240300A9F745"
-               BuildableName = "HairDay.app"
-               BlueprintName = "HairDay"
+               BlueprintIdentifier = "1B663AFF20A9A28D008C40DD"
+               BuildableName = "HairDay PROD.app"
+               BlueprintName = "HairDay PROD"
                ReferencedContainer = "container:HairDay.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,9 +33,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1BB7504820A4240300A9F745"
-            BuildableName = "HairDay.app"
-            BlueprintName = "HairDay"
+            BlueprintIdentifier = "1B663AFF20A9A28D008C40DD"
+            BuildableName = "HairDay PROD.app"
+            BlueprintName = "HairDay PROD"
             ReferencedContainer = "container:HairDay.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -57,9 +57,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1BB7504820A4240300A9F745"
-            BuildableName = "HairDay.app"
-            BlueprintName = "HairDay"
+            BlueprintIdentifier = "1B663AFF20A9A28D008C40DD"
+            BuildableName = "HairDay PROD.app"
+            BlueprintName = "HairDay PROD"
             ReferencedContainer = "container:HairDay.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -76,9 +76,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1BB7504820A4240300A9F745"
-            BuildableName = "HairDay.app"
-            BlueprintName = "HairDay"
+            BlueprintIdentifier = "1B663AFF20A9A28D008C40DD"
+            BuildableName = "HairDay PROD.app"
+            BlueprintName = "HairDay PROD"
             ReferencedContainer = "container:HairDay.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

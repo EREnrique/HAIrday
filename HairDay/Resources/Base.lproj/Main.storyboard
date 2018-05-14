@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ukm-Sd-EM0">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="GillSans.ttc">
+            <string>GillSans-Light</string>
+        </array>
+    </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--Welcome View-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HairDay" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WelcomeView" id="BYZ-38-t0r" customClass="WelcomeView" customModule="HairDay_DEV" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -21,13 +27,33 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HairdayLaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="CqD-db-Fs5">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eyS-24-AcX" userLabel="Female Button">
+                                <rect key="frame" x="0.0" y="351" width="200" height="316"/>
+                                <connections>
+                                    <action selector="femaleGenderTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jtD-A7-R2x"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TZu-nT-pgc" userLabel="Male Button">
+                                <rect key="frame" x="200" y="351" width="175" height="316"/>
+                                <connections>
+                                    <action selector="MaleGenderTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GnG-Cc-qUZ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="CqD-db-Fs5" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="09M-w1-4JX"/>
+                            <constraint firstItem="TZu-nT-pgc" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="0W3-J7-pZ1"/>
+                            <constraint firstItem="eyS-24-AcX" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="1:2.111" id="3Fe-XX-DIO"/>
                             <constraint firstItem="CqD-db-Fs5" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="6TO-GA-gH8"/>
                             <constraint firstItem="CqD-db-Fs5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="9kF-7K-bQU"/>
+                            <constraint firstItem="TZu-nT-pgc" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="1:2.111" id="EFJ-9F-EHN"/>
+                            <constraint firstItem="eyS-24-AcX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="EzM-Jh-zOO"/>
+                            <constraint firstItem="eyS-24-AcX" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:1.875" id="QN7-j6-yjm"/>
+                            <constraint firstItem="eyS-24-AcX" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="ZO8-5k-md1"/>
                             <constraint firstItem="CqD-db-Fs5" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ZfJ-ag-td9"/>
+                            <constraint firstItem="TZu-nT-pgc" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="dIX-Hw-fcY"/>
+                            <constraint firstItem="TZu-nT-pgc" firstAttribute="leading" secondItem="eyS-24-AcX" secondAttribute="trailing" id="nz7-L3-Vc2"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -36,37 +62,37 @@
             </objects>
             <point key="canvasLocation" x="1132" y="142.57871064467767"/>
         </scene>
-        <!--View Controller-->
+        <!--Scalp Capture View-->
         <scene sceneID="rpy-on-lO1">
             <objects>
-                <viewController id="0ej-7u-fem" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ScalpCaptureView" id="0ej-7u-fem" customClass="ScalpCaptureView" customModule="HairDay_DEV" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Tuj-SG-Td1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ScalpScreenshot" translatesAutoresizingMaskIntoConstraints="NO" id="mDP-Qh-XZv">
-                                <rect key="frame" x="0.0" y="20" width="375" height="333.5"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="333" id="nzC-zQ-tNe"/>
-                                </constraints>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ScalpScreenshot" translatesAutoresizingMaskIntoConstraints="NO" id="mDP-Qh-XZv">
+                                <rect key="frame" x="0.0" y="167" width="375" height="500"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HairDayBanner" translatesAutoresizingMaskIntoConstraints="NO" id="mQP-lp-gmg">
-                                <rect key="frame" x="0.0" y="567" width="375" height="100"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Take a picture of your scalp" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="4b3-ZR-cv0" customClass="HairDayHeaderLabel" customModule="HairDay_DEV" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="20" width="375" height="50"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="gsf-Ca-wfC"/>
+                                    <constraint firstAttribute="height" constant="50" id="S2W-lc-tes"/>
                                 </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Take a snapshot of your scalp" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4b3-ZR-cv0">
-                                <rect key="frame" x="0.0" y="507" width="375" height="50"/>
+                                <fontDescription key="fontDescription" name="GillSans-Light" family="Gill Sans" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(from above, like this)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cbf-IV-RLt" customClass="HairDaySubHeaderLabel" customModule="HairDay_DEV" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="80" width="293" height="50"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="Kki-wn-QDB"/>
+                                    <constraint firstAttribute="height" constant="50" id="psz-7H-Xzq"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="GillSans-Light" family="Gill Sans" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ScalpGuide" translatesAutoresizingMaskIntoConstraints="NO" id="VrU-rn-u1E">
-                                <rect key="frame" x="317" y="507" width="58" height="68"/>
+                                <rect key="frame" x="301" y="80" width="58" height="68"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="58" id="Hd5-lU-9CC"/>
                                     <constraint firstAttribute="height" constant="68" id="egv-Qa-ljR"/>
@@ -75,16 +101,18 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="mQP-lp-gmg" firstAttribute="top" secondItem="4b3-ZR-cv0" secondAttribute="bottom" constant="10" id="25P-SY-shY"/>
-                            <constraint firstItem="mDP-Qh-XZv" firstAttribute="top" secondItem="Hac-BF-oDh" secondAttribute="top" id="7wU-dW-NUl"/>
-                            <constraint firstItem="VrU-rn-u1E" firstAttribute="trailing" secondItem="4b3-ZR-cv0" secondAttribute="trailing" id="Dzu-Sc-LB4"/>
+                            <constraint firstItem="Hac-BF-oDh" firstAttribute="trailing" secondItem="VrU-rn-u1E" secondAttribute="trailing" constant="16" id="AQ6-N1-VfG"/>
+                            <constraint firstItem="mDP-Qh-XZv" firstAttribute="height" secondItem="Tuj-SG-Td1" secondAttribute="height" multiplier="75:100" id="Dge-GQ-dzO"/>
                             <constraint firstItem="mDP-Qh-XZv" firstAttribute="width" secondItem="Tuj-SG-Td1" secondAttribute="width" id="HEv-vs-p13"/>
-                            <constraint firstItem="VrU-rn-u1E" firstAttribute="top" secondItem="4b3-ZR-cv0" secondAttribute="top" id="Hi4-qr-uKc"/>
-                            <constraint firstItem="mQP-lp-gmg" firstAttribute="width" secondItem="Tuj-SG-Td1" secondAttribute="width" id="RLb-3g-n2r"/>
+                            <constraint firstItem="4b3-ZR-cv0" firstAttribute="top" secondItem="Hac-BF-oDh" secondAttribute="top" id="MbK-vH-CMe"/>
+                            <constraint firstItem="Cbf-IV-RLt" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="4b3-ZR-cv0" secondAttribute="leading" id="Qyt-id-qHn"/>
                             <constraint firstItem="4b3-ZR-cv0" firstAttribute="width" secondItem="Tuj-SG-Td1" secondAttribute="width" id="a2j-ea-qcN"/>
-                            <constraint firstItem="mQP-lp-gmg" firstAttribute="bottom" secondItem="Hac-BF-oDh" secondAttribute="bottom" id="dYI-XT-b5z"/>
-                            <constraint firstItem="mQP-lp-gmg" firstAttribute="centerX" secondItem="Hac-BF-oDh" secondAttribute="centerX" id="oST-rS-7Wu"/>
+                            <constraint firstItem="Cbf-IV-RLt" firstAttribute="top" secondItem="4b3-ZR-cv0" secondAttribute="bottom" constant="10" id="bjP-jW-ore"/>
+                            <constraint firstAttribute="trailing" secondItem="Cbf-IV-RLt" secondAttribute="trailing" constant="82" id="dba-YF-DAu"/>
                             <constraint firstItem="4b3-ZR-cv0" firstAttribute="centerX" secondItem="Hac-BF-oDh" secondAttribute="centerX" id="qq8-W9-Euy"/>
+                            <constraint firstItem="Cbf-IV-RLt" firstAttribute="width" secondItem="Tuj-SG-Td1" secondAttribute="width" multiplier="1:1.2798" id="vud-z1-ARS"/>
+                            <constraint firstItem="mDP-Qh-XZv" firstAttribute="bottom" secondItem="Hac-BF-oDh" secondAttribute="bottom" id="yRG-4P-szf"/>
+                            <constraint firstItem="VrU-rn-u1E" firstAttribute="top" secondItem="Cbf-IV-RLt" secondAttribute="top" id="yod-Hs-yyO"/>
                             <constraint firstItem="mDP-Qh-XZv" firstAttribute="centerX" secondItem="Hac-BF-oDh" secondAttribute="centerX" id="yt1-yh-1uY"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Hac-BF-oDh"/>

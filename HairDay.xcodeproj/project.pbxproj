@@ -7,13 +7,119 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B663AF420A9A245008C40DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB7504C20A4240300A9F745 /* AppDelegate.swift */; };
+		1B663AF720A9A245008C40DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BB7505520A4240300A9F745 /* LaunchScreen.storyboard */; };
+		1B663AF820A9A245008C40DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BB7505320A4240300A9F745 /* Assets.xcassets */; };
+		1B663AF920A9A245008C40DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BB7505020A4240300A9F745 /* Main.storyboard */; };
+		1B663B0220A9A28D008C40DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB7504C20A4240300A9F745 /* AppDelegate.swift */; };
+		1B663B0520A9A28D008C40DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BB7505520A4240300A9F745 /* LaunchScreen.storyboard */; };
+		1B663B0620A9A28D008C40DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BB7505320A4240300A9F745 /* Assets.xcassets */; };
+		1B663B0720A9A28D008C40DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BB7505020A4240300A9F745 /* Main.storyboard */; };
+		1B663B1020A9A351008C40DD /* Info-QA.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B663B0D20A9A351008C40DD /* Info-QA.plist */; };
+		1B663B1120A9A351008C40DD /* Info-QA.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B663B0D20A9A351008C40DD /* Info-QA.plist */; };
+		1B663B1220A9A351008C40DD /* Info-QA.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B663B0D20A9A351008C40DD /* Info-QA.plist */; };
+		1B663B1320A9A351008C40DD /* Info-DEV.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B663B0E20A9A351008C40DD /* Info-DEV.plist */; };
+		1B663B1420A9A351008C40DD /* Info-DEV.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B663B0E20A9A351008C40DD /* Info-DEV.plist */; };
+		1B663B1520A9A351008C40DD /* Info-DEV.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B663B0E20A9A351008C40DD /* Info-DEV.plist */; };
+		1B663B1620A9A351008C40DD /* Info-PROD.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B663B0F20A9A351008C40DD /* Info-PROD.plist */; };
+		1B663B1720A9A351008C40DD /* Info-PROD.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B663B0F20A9A351008C40DD /* Info-PROD.plist */; };
+		1B663B1820A9A351008C40DD /* Info-PROD.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B663B0F20A9A351008C40DD /* Info-PROD.plist */; };
 		1BB7504D20A4240300A9F745 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB7504C20A4240300A9F745 /* AppDelegate.swift */; };
-		1BB7504F20A4240300A9F745 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB7504E20A4240300A9F745 /* ViewController.swift */; };
 		1BB7505220A4240300A9F745 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BB7505020A4240300A9F745 /* Main.storyboard */; };
 		1BB7505420A4240300A9F745 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BB7505320A4240300A9F745 /* Assets.xcassets */; };
 		1BB7505720A4240300A9F745 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BB7505520A4240300A9F745 /* LaunchScreen.storyboard */; };
 		1BB7506220A4240300A9F745 /* HairDayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB7506120A4240300A9F745 /* HairDayTests.swift */; };
 		1BB7506D20A4240400A9F745 /* HairDayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB7506C20A4240400A9F745 /* HairDayUITests.swift */; };
+		1BEB032920AA0293005C9C81 /* BaseWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB032820AA0293005C9C81 /* BaseWireframe.swift */; };
+		1BEB032A20AA0293005C9C81 /* BaseWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB032820AA0293005C9C81 /* BaseWireframe.swift */; };
+		1BEB032B20AA0293005C9C81 /* BaseWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB032820AA0293005C9C81 /* BaseWireframe.swift */; };
+		1BEB032C20AA0293005C9C81 /* BaseWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB032820AA0293005C9C81 /* BaseWireframe.swift */; };
+		1BEB032D20AA0293005C9C81 /* BaseWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB032820AA0293005C9C81 /* BaseWireframe.swift */; };
+		1BEB032F20AA030D005C9C81 /* HairDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB032E20AA030D005C9C81 /* HairDay.swift */; };
+		1BEB033020AA030D005C9C81 /* HairDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB032E20AA030D005C9C81 /* HairDay.swift */; };
+		1BEB033120AA030D005C9C81 /* HairDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB032E20AA030D005C9C81 /* HairDay.swift */; };
+		1BEB033220AA030D005C9C81 /* HairDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB032E20AA030D005C9C81 /* HairDay.swift */; };
+		1BEB033320AA030D005C9C81 /* HairDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB032E20AA030D005C9C81 /* HairDay.swift */; };
+		1BEB033520AA0577005C9C81 /* HairDayTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB033420AA0577005C9C81 /* HairDayTheme.swift */; };
+		1BEB033620AA0577005C9C81 /* HairDayTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB033420AA0577005C9C81 /* HairDayTheme.swift */; };
+		1BEB033720AA0577005C9C81 /* HairDayTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB033420AA0577005C9C81 /* HairDayTheme.swift */; };
+		1BEB033820AA0577005C9C81 /* HairDayTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB033420AA0577005C9C81 /* HairDayTheme.swift */; };
+		1BEB033920AA0577005C9C81 /* HairDayTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB033420AA0577005C9C81 /* HairDayTheme.swift */; };
+		1BEB033B20AA1BEF005C9C81 /* RootWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB033A20AA1BEF005C9C81 /* RootWireframe.swift */; };
+		1BEB033C20AA1BEF005C9C81 /* RootWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB033A20AA1BEF005C9C81 /* RootWireframe.swift */; };
+		1BEB033D20AA1BEF005C9C81 /* RootWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB033A20AA1BEF005C9C81 /* RootWireframe.swift */; };
+		1BEB033E20AA1BEF005C9C81 /* RootWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB033A20AA1BEF005C9C81 /* RootWireframe.swift */; };
+		1BEB033F20AA1BEF005C9C81 /* RootWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB033A20AA1BEF005C9C81 /* RootWireframe.swift */; };
+		1BEB034120AA1C85005C9C81 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB034020AA1C85005C9C81 /* BaseView.swift */; };
+		1BEB034220AA1C85005C9C81 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB034020AA1C85005C9C81 /* BaseView.swift */; };
+		1BEB034320AA1C85005C9C81 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB034020AA1C85005C9C81 /* BaseView.swift */; };
+		1BEB034420AA1C85005C9C81 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB034020AA1C85005C9C81 /* BaseView.swift */; };
+		1BEB034520AA1C85005C9C81 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB034020AA1C85005C9C81 /* BaseView.swift */; };
+		1BEB034720AA1DCB005C9C81 /* WelcomeWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB034620AA1DCB005C9C81 /* WelcomeWireframe.swift */; };
+		1BEB034820AA1DCB005C9C81 /* WelcomeWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB034620AA1DCB005C9C81 /* WelcomeWireframe.swift */; };
+		1BEB034920AA1DCB005C9C81 /* WelcomeWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB034620AA1DCB005C9C81 /* WelcomeWireframe.swift */; };
+		1BEB034A20AA1DCB005C9C81 /* WelcomeWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB034620AA1DCB005C9C81 /* WelcomeWireframe.swift */; };
+		1BEB034B20AA1DCB005C9C81 /* WelcomeWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB034620AA1DCB005C9C81 /* WelcomeWireframe.swift */; };
+		1BEB034D20AA1E54005C9C81 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB034C20AA1E54005C9C81 /* WelcomeView.swift */; };
+		1BEB034E20AA1E54005C9C81 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB034C20AA1E54005C9C81 /* WelcomeView.swift */; };
+		1BEB034F20AA1E54005C9C81 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB034C20AA1E54005C9C81 /* WelcomeView.swift */; };
+		1BEB035020AA1E54005C9C81 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB034C20AA1E54005C9C81 /* WelcomeView.swift */; };
+		1BEB035120AA1E54005C9C81 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB034C20AA1E54005C9C81 /* WelcomeView.swift */; };
+		1BEB035320AA1E98005C9C81 /* WelcomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB035220AA1E98005C9C81 /* WelcomePresenter.swift */; };
+		1BEB035420AA1E98005C9C81 /* WelcomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB035220AA1E98005C9C81 /* WelcomePresenter.swift */; };
+		1BEB035520AA1E98005C9C81 /* WelcomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB035220AA1E98005C9C81 /* WelcomePresenter.swift */; };
+		1BEB035620AA1E98005C9C81 /* WelcomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB035220AA1E98005C9C81 /* WelcomePresenter.swift */; };
+		1BEB035720AA1E98005C9C81 /* WelcomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB035220AA1E98005C9C81 /* WelcomePresenter.swift */; };
+		1BEB035920AA218B005C9C81 /* PropertyLooperProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB035820AA218B005C9C81 /* PropertyLooperProtocol.swift */; };
+		1BEB035A20AA218B005C9C81 /* PropertyLooperProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB035820AA218B005C9C81 /* PropertyLooperProtocol.swift */; };
+		1BEB035B20AA218B005C9C81 /* PropertyLooperProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB035820AA218B005C9C81 /* PropertyLooperProtocol.swift */; };
+		1BEB035C20AA218B005C9C81 /* PropertyLooperProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB035820AA218B005C9C81 /* PropertyLooperProtocol.swift */; };
+		1BEB035D20AA218B005C9C81 /* PropertyLooperProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB035820AA218B005C9C81 /* PropertyLooperProtocol.swift */; };
+		1BEB035F20AA220C005C9C81 /* BaseDisplayItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB035E20AA220C005C9C81 /* BaseDisplayItem.swift */; };
+		1BEB036020AA220C005C9C81 /* BaseDisplayItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB035E20AA220C005C9C81 /* BaseDisplayItem.swift */; };
+		1BEB036120AA220C005C9C81 /* BaseDisplayItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB035E20AA220C005C9C81 /* BaseDisplayItem.swift */; };
+		1BEB036220AA220C005C9C81 /* BaseDisplayItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB035E20AA220C005C9C81 /* BaseDisplayItem.swift */; };
+		1BEB036320AA220C005C9C81 /* BaseDisplayItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB035E20AA220C005C9C81 /* BaseDisplayItem.swift */; };
+		1BEB036520AA2271005C9C81 /* UserDisplayItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB036420AA2271005C9C81 /* UserDisplayItem.swift */; };
+		1BEB036620AA2271005C9C81 /* UserDisplayItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB036420AA2271005C9C81 /* UserDisplayItem.swift */; };
+		1BEB036720AA2271005C9C81 /* UserDisplayItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB036420AA2271005C9C81 /* UserDisplayItem.swift */; };
+		1BEB036820AA2271005C9C81 /* UserDisplayItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB036420AA2271005C9C81 /* UserDisplayItem.swift */; };
+		1BEB036920AA2271005C9C81 /* UserDisplayItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB036420AA2271005C9C81 /* UserDisplayItem.swift */; };
+		1BEB036B20AA2403005C9C81 /* PropertyLooper+Default.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB036A20AA2403005C9C81 /* PropertyLooper+Default.swift */; };
+		1BEB036C20AA2403005C9C81 /* PropertyLooper+Default.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB036A20AA2403005C9C81 /* PropertyLooper+Default.swift */; };
+		1BEB036D20AA2403005C9C81 /* PropertyLooper+Default.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB036A20AA2403005C9C81 /* PropertyLooper+Default.swift */; };
+		1BEB036E20AA2403005C9C81 /* PropertyLooper+Default.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB036A20AA2403005C9C81 /* PropertyLooper+Default.swift */; };
+		1BEB036F20AA2403005C9C81 /* PropertyLooper+Default.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB036A20AA2403005C9C81 /* PropertyLooper+Default.swift */; };
+		1BEB037120AA2D31005C9C81 /* WelcomeModuleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB037020AA2D31005C9C81 /* WelcomeModuleProtocol.swift */; };
+		1BEB037220AA2D31005C9C81 /* WelcomeModuleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB037020AA2D31005C9C81 /* WelcomeModuleProtocol.swift */; };
+		1BEB037320AA2D31005C9C81 /* WelcomeModuleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB037020AA2D31005C9C81 /* WelcomeModuleProtocol.swift */; };
+		1BEB037420AA2D31005C9C81 /* WelcomeModuleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB037020AA2D31005C9C81 /* WelcomeModuleProtocol.swift */; };
+		1BEB037520AA2D31005C9C81 /* WelcomeModuleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB037020AA2D31005C9C81 /* WelcomeModuleProtocol.swift */; };
+		1BEB037720AA2E39005C9C81 /* WelcomeInteractorIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB037620AA2E39005C9C81 /* WelcomeInteractorIO.swift */; };
+		1BEB037820AA2E39005C9C81 /* WelcomeInteractorIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB037620AA2E39005C9C81 /* WelcomeInteractorIO.swift */; };
+		1BEB037920AA2E39005C9C81 /* WelcomeInteractorIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB037620AA2E39005C9C81 /* WelcomeInteractorIO.swift */; };
+		1BEB037A20AA2E39005C9C81 /* WelcomeInteractorIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB037620AA2E39005C9C81 /* WelcomeInteractorIO.swift */; };
+		1BEB037B20AA2E39005C9C81 /* WelcomeInteractorIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB037620AA2E39005C9C81 /* WelcomeInteractorIO.swift */; };
+		1BEB037D20AA2EE5005C9C81 /* WelcomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB037C20AA2EE5005C9C81 /* WelcomeInteractor.swift */; };
+		1BEB037E20AA2EE5005C9C81 /* WelcomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB037C20AA2EE5005C9C81 /* WelcomeInteractor.swift */; };
+		1BEB037F20AA2EE5005C9C81 /* WelcomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB037C20AA2EE5005C9C81 /* WelcomeInteractor.swift */; };
+		1BEB038020AA2EE5005C9C81 /* WelcomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB037C20AA2EE5005C9C81 /* WelcomeInteractor.swift */; };
+		1BEB038120AA2EE5005C9C81 /* WelcomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB037C20AA2EE5005C9C81 /* WelcomeInteractor.swift */; };
+		1BEB038320AA370E005C9C81 /* ScalpCaptureWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB038220AA370E005C9C81 /* ScalpCaptureWireframe.swift */; };
+		1BEB038420AA370E005C9C81 /* ScalpCaptureWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB038220AA370E005C9C81 /* ScalpCaptureWireframe.swift */; };
+		1BEB038520AA370E005C9C81 /* ScalpCaptureWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB038220AA370E005C9C81 /* ScalpCaptureWireframe.swift */; };
+		1BEB038620AA370E005C9C81 /* ScalpCaptureWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB038220AA370E005C9C81 /* ScalpCaptureWireframe.swift */; };
+		1BEB038720AA370E005C9C81 /* ScalpCaptureWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB038220AA370E005C9C81 /* ScalpCaptureWireframe.swift */; };
+		1BEB038920AA38FC005C9C81 /* ScalpCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB038820AA38FC005C9C81 /* ScalpCaptureView.swift */; };
+		1BEB038A20AA38FC005C9C81 /* ScalpCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB038820AA38FC005C9C81 /* ScalpCaptureView.swift */; };
+		1BEB038B20AA38FC005C9C81 /* ScalpCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB038820AA38FC005C9C81 /* ScalpCaptureView.swift */; };
+		1BEB038C20AA38FC005C9C81 /* ScalpCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB038820AA38FC005C9C81 /* ScalpCaptureView.swift */; };
+		1BEB038D20AA38FC005C9C81 /* ScalpCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB038820AA38FC005C9C81 /* ScalpCaptureView.swift */; };
+		1BEB038F20AA3C12005C9C81 /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB038E20AA3C12005C9C81 /* AppDependencies.swift */; };
+		1BEB039020AA3C12005C9C81 /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB038E20AA3C12005C9C81 /* AppDependencies.swift */; };
+		1BEB039120AA3C12005C9C81 /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB038E20AA3C12005C9C81 /* AppDependencies.swift */; };
+		1BEB039220AA3C12005C9C81 /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB038E20AA3C12005C9C81 /* AppDependencies.swift */; };
+		1BEB039320AA3C12005C9C81 /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB038E20AA3C12005C9C81 /* AppDependencies.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,22 +140,59 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1BB7504920A4240300A9F745 /* HairDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HairDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B663AFD20A9A245008C40DD /* HairDay QA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HairDay QA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B663AFE20A9A245008C40DD /* HairDay copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "HairDay copy-Info.plist"; path = "/Users/enricoboller/Documents/AppDevelopment/GitHub/Zelta/Hairday/HairDay copy-Info.plist"; sourceTree = "<absolute>"; };
+		1B663B0B20A9A28D008C40DD /* HairDay PROD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HairDay PROD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B663B0C20A9A28D008C40DD /* HairDay QA copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "HairDay QA copy-Info.plist"; path = "/Users/enricoboller/Documents/AppDevelopment/GitHub/Zelta/Hairday/HairDay QA copy-Info.plist"; sourceTree = "<absolute>"; };
+		1B663B0D20A9A351008C40DD /* Info-QA.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-QA.plist"; sourceTree = "<group>"; };
+		1B663B0E20A9A351008C40DD /* Info-DEV.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-DEV.plist"; sourceTree = "<group>"; };
+		1B663B0F20A9A351008C40DD /* Info-PROD.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-PROD.plist"; sourceTree = "<group>"; };
+		1BB7504920A4240300A9F745 /* HairDay DEV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HairDay DEV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BB7504C20A4240300A9F745 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1BB7504E20A4240300A9F745 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1BB7505120A4240300A9F745 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1BB7505320A4240300A9F745 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BB7505620A4240300A9F745 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1BB7505820A4240300A9F745 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BB7505D20A4240300A9F745 /* HairDayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HairDayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BB7506120A4240300A9F745 /* HairDayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HairDayTests.swift; sourceTree = "<group>"; };
 		1BB7506320A4240300A9F745 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BB7506820A4240400A9F745 /* HairDayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HairDayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BB7506C20A4240400A9F745 /* HairDayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HairDayUITests.swift; sourceTree = "<group>"; };
 		1BB7506E20A4240400A9F745 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BEB032820AA0293005C9C81 /* BaseWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseWireframe.swift; sourceTree = "<group>"; };
+		1BEB032E20AA030D005C9C81 /* HairDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HairDay.swift; sourceTree = "<group>"; };
+		1BEB033420AA0577005C9C81 /* HairDayTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HairDayTheme.swift; sourceTree = "<group>"; };
+		1BEB033A20AA1BEF005C9C81 /* RootWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootWireframe.swift; sourceTree = "<group>"; };
+		1BEB034020AA1C85005C9C81 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		1BEB034620AA1DCB005C9C81 /* WelcomeWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeWireframe.swift; sourceTree = "<group>"; };
+		1BEB034C20AA1E54005C9C81 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		1BEB035220AA1E98005C9C81 /* WelcomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePresenter.swift; sourceTree = "<group>"; };
+		1BEB035820AA218B005C9C81 /* PropertyLooperProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyLooperProtocol.swift; sourceTree = "<group>"; };
+		1BEB035E20AA220C005C9C81 /* BaseDisplayItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDisplayItem.swift; sourceTree = "<group>"; };
+		1BEB036420AA2271005C9C81 /* UserDisplayItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDisplayItem.swift; sourceTree = "<group>"; };
+		1BEB036A20AA2403005C9C81 /* PropertyLooper+Default.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PropertyLooper+Default.swift"; sourceTree = "<group>"; };
+		1BEB037020AA2D31005C9C81 /* WelcomeModuleProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeModuleProtocol.swift; sourceTree = "<group>"; };
+		1BEB037620AA2E39005C9C81 /* WelcomeInteractorIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeInteractorIO.swift; sourceTree = "<group>"; };
+		1BEB037C20AA2EE5005C9C81 /* WelcomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeInteractor.swift; sourceTree = "<group>"; };
+		1BEB038220AA370E005C9C81 /* ScalpCaptureWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScalpCaptureWireframe.swift; sourceTree = "<group>"; };
+		1BEB038820AA38FC005C9C81 /* ScalpCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScalpCaptureView.swift; sourceTree = "<group>"; };
+		1BEB038E20AA3C12005C9C81 /* AppDependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependencies.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1B663AF520A9A245008C40DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B663B0320A9A28D008C40DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1BB7504620A4240300A9F745 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -78,7 +221,10 @@
 			isa = PBXGroup;
 			children = (
 				1BB7504C20A4240300A9F745 /* AppDelegate.swift */,
-				1BB7504E20A4240300A9F745 /* ViewController.swift */,
+				1BEB038E20AA3C12005C9C81 /* AppDependencies.swift */,
+				1BEB02BD20A9EFBB005C9C81 /* Common */,
+				1BEB02BE20A9EFC3005C9C81 /* Modules */,
+				1BEB02BF20A9EFCA005C9C81 /* Infrastructure */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -86,6 +232,9 @@
 		1B5CBC3320A49B5600E3FC9A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
+				1B663B0E20A9A351008C40DD /* Info-DEV.plist */,
+				1B663B0F20A9A351008C40DD /* Info-PROD.plist */,
+				1B663B0D20A9A351008C40DD /* Info-QA.plist */,
 			);
 			path = "Support Files";
 			sourceTree = "<group>";
@@ -107,15 +256,19 @@
 				1BB7506020A4240300A9F745 /* HairDayTests */,
 				1BB7506B20A4240400A9F745 /* HairDayUITests */,
 				1BB7504A20A4240300A9F745 /* Products */,
+				1B663AFE20A9A245008C40DD /* HairDay copy-Info.plist */,
+				1B663B0C20A9A28D008C40DD /* HairDay QA copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
 		1BB7504A20A4240300A9F745 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1BB7504920A4240300A9F745 /* HairDay.app */,
+				1BB7504920A4240300A9F745 /* HairDay DEV.app */,
 				1BB7505D20A4240300A9F745 /* HairDayTests.xctest */,
 				1BB7506820A4240400A9F745 /* HairDayUITests.xctest */,
+				1B663AFD20A9A245008C40DD /* HairDay QA.app */,
+				1B663B0B20A9A28D008C40DD /* HairDay PROD.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,7 +276,6 @@
 		1BB7504B20A4240300A9F745 /* HairDay */ = {
 			isa = PBXGroup;
 			children = (
-				1BB7505820A4240300A9F745 /* Info.plist */,
 				1B5CBC3220A49B3E00E3FC9A /* Source */,
 				1B5CBC3320A49B5600E3FC9A /* Support Files */,
 				1B5CBC3420A49B6000E3FC9A /* Resources */,
@@ -149,12 +301,916 @@
 			path = HairDayUITests;
 			sourceTree = "<group>";
 		};
+		1BEB02BD20A9EFBB005C9C81 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB02C020A9F010005C9C81 /* Wireframe */,
+				1BEB02C120A9F017005C9C81 /* Presenter */,
+				1BEB02C220A9F042005C9C81 /* Session */,
+				1BEB02C320A9F05D005C9C81 /* SyncEngine */,
+				1BEB02C420A9F089005C9C81 /* WebService */,
+				1BEB02C520A9F0A0005C9C81 /* HairDay */,
+				1BEB02C620A9F0C9005C9C81 /* TypeDefinitions */,
+				1BEB02C720A9F0DE005C9C81 /* View */,
+				1BEB02C820A9F0EE005C9C81 /* Model */,
+				1BEB02C920A9F103005C9C81 /* Database */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		1BEB02BE20A9EFC3005C9C81 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB02CA20A9F145005C9C81 /* Welcome */,
+				1BEB02D320A9F245005C9C81 /* ScalpCapture */,
+				1BEB02D720A9F2B1005C9C81 /* ScalpCaptureOptions */,
+				1BEB02E520A9FC88005C9C81 /* LearnMore */,
+				1BEB02EE20A9FD41005C9C81 /* Calibrating */,
+				1BEB02F720A9FDD3005C9C81 /* Congratulations */,
+				1BEB030020A9FF8B005C9C81 /* StartTakingCharge */,
+				1BEB030920AA0021005C9C81 /* ProductOffers */,
+				1BEB031220AA0099005C9C81 /* HairDressers */,
+				1BEB031320AA00EE005C9C81 /* HairLog */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		1BEB02BF20A9EFCA005C9C81 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB032520AA0227005C9C81 /* Error Handling */,
+				1BEB032420AA0221005C9C81 /* Utility */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		1BEB02C020A9F010005C9C81 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB032820AA0293005C9C81 /* BaseWireframe.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		1BEB02C120A9F017005C9C81 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB035E20AA220C005C9C81 /* BaseDisplayItem.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		1BEB02C220A9F042005C9C81 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		1BEB02C320A9F05D005C9C81 /* SyncEngine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SyncEngine;
+			sourceTree = "<group>";
+		};
+		1BEB02C420A9F089005C9C81 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		1BEB02C520A9F0A0005C9C81 /* HairDay */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB032E20AA030D005C9C81 /* HairDay.swift */,
+				1BEB033420AA0577005C9C81 /* HairDayTheme.swift */,
+			);
+			path = HairDay;
+			sourceTree = "<group>";
+		};
+		1BEB02C620A9F0C9005C9C81 /* TypeDefinitions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TypeDefinitions;
+			sourceTree = "<group>";
+		};
+		1BEB02C720A9F0DE005C9C81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB033A20AA1BEF005C9C81 /* RootWireframe.swift */,
+				1BEB034020AA1C85005C9C81 /* BaseView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BEB02C820A9F0EE005C9C81 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1BEB02C920A9F103005C9C81 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		1BEB02CA20A9F145005C9C81 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB02CB20A9F160005C9C81 /* Module Interface */,
+				1BEB02CC20A9F16F005C9C81 /* Application Logic */,
+				1BEB02CD20A9F182005C9C81 /* User Interface */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		1BEB02CB20A9F160005C9C81 /* Module Interface */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB037020AA2D31005C9C81 /* WelcomeModuleProtocol.swift */,
+			);
+			path = "Module Interface";
+			sourceTree = "<group>";
+		};
+		1BEB02CC20A9F16F005C9C81 /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB02CE20A9F1A3005C9C81 /* Interactor */,
+				1BEB02CF20A9F1B8005C9C81 /* Manager */,
+			);
+			path = "Application Logic";
+			sourceTree = "<group>";
+		};
+		1BEB02CD20A9F182005C9C81 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB02D020A9F1DB005C9C81 /* Presenter */,
+				1BEB02D120A9F1E2005C9C81 /* Wireframe */,
+				1BEB02D220A9F1E9005C9C81 /* View */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		1BEB02CE20A9F1A3005C9C81 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB037620AA2E39005C9C81 /* WelcomeInteractorIO.swift */,
+				1BEB037C20AA2EE5005C9C81 /* WelcomeInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		1BEB02CF20A9F1B8005C9C81 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		1BEB02D020A9F1DB005C9C81 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB035220AA1E98005C9C81 /* WelcomePresenter.swift */,
+				1BEB036420AA2271005C9C81 /* UserDisplayItem.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		1BEB02D120A9F1E2005C9C81 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB034620AA1DCB005C9C81 /* WelcomeWireframe.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		1BEB02D220A9F1E9005C9C81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB034C20AA1E54005C9C81 /* WelcomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BEB02D320A9F245005C9C81 /* ScalpCapture */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB02D620A9F26E005C9C81 /* Module Interface */,
+				1BEB02D520A9F265005C9C81 /* Application Logic */,
+				1BEB02D420A9F25C005C9C81 /* User Interface */,
+			);
+			path = ScalpCapture;
+			sourceTree = "<group>";
+		};
+		1BEB02D420A9F25C005C9C81 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB02DC20A9F2F9005C9C81 /* Presenter */,
+				1BEB02DB20A9F2F2005C9C81 /* Wireframe */,
+				1BEB02DA20A9F2EB005C9C81 /* View */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		1BEB02D520A9F265005C9C81 /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB02D920A9F2DF005C9C81 /* Interactor */,
+				1BEB02D820A9F2D8005C9C81 /* Manager */,
+			);
+			path = "Application Logic";
+			sourceTree = "<group>";
+		};
+		1BEB02D620A9F26E005C9C81 /* Module Interface */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Module Interface";
+			sourceTree = "<group>";
+		};
+		1BEB02D720A9F2B1005C9C81 /* ScalpCaptureOptions */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB02DF20A9F33A005C9C81 /* Module Interface */,
+				1BEB02DE20A9F32F005C9C81 /* Application Logic */,
+				1BEB02DD20A9F323005C9C81 /* User Interface */,
+			);
+			path = ScalpCaptureOptions;
+			sourceTree = "<group>";
+		};
+		1BEB02D820A9F2D8005C9C81 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		1BEB02D920A9F2DF005C9C81 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		1BEB02DA20A9F2EB005C9C81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB038820AA38FC005C9C81 /* ScalpCaptureView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BEB02DB20A9F2F2005C9C81 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB038220AA370E005C9C81 /* ScalpCaptureWireframe.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		1BEB02DC20A9F2F9005C9C81 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		1BEB02DD20A9F323005C9C81 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB02E420A9F36A005C9C81 /* Presenter */,
+				1BEB02E320A9F363005C9C81 /* Wireframe */,
+				1BEB02E220A9F359005C9C81 /* View */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		1BEB02DE20A9F32F005C9C81 /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB02E120A9F34B005C9C81 /* Interactor */,
+				1BEB02E020A9F344005C9C81 /* Manager */,
+			);
+			path = "Application Logic";
+			sourceTree = "<group>";
+		};
+		1BEB02DF20A9F33A005C9C81 /* Module Interface */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Module Interface";
+			sourceTree = "<group>";
+		};
+		1BEB02E020A9F344005C9C81 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		1BEB02E120A9F34B005C9C81 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		1BEB02E220A9F359005C9C81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BEB02E320A9F363005C9C81 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		1BEB02E420A9F36A005C9C81 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		1BEB02E520A9FC88005C9C81 /* LearnMore */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB02E820A9FCB5005C9C81 /* Module Interface */,
+				1BEB02E720A9FCA8005C9C81 /* Application Logic */,
+				1BEB02E620A9FC9F005C9C81 /* User Interface */,
+			);
+			path = LearnMore;
+			sourceTree = "<group>";
+		};
+		1BEB02E620A9FC9F005C9C81 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB02ED20A9FCDE005C9C81 /* Presenter */,
+				1BEB02EC20A9FCD8005C9C81 /* Wireframe */,
+				1BEB02EB20A9FCD1005C9C81 /* View */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		1BEB02E720A9FCA8005C9C81 /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB02EA20A9FCC8005C9C81 /* Interactor */,
+				1BEB02E920A9FCC2005C9C81 /* Manager */,
+			);
+			path = "Application Logic";
+			sourceTree = "<group>";
+		};
+		1BEB02E820A9FCB5005C9C81 /* Module Interface */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Module Interface";
+			sourceTree = "<group>";
+		};
+		1BEB02E920A9FCC2005C9C81 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		1BEB02EA20A9FCC8005C9C81 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		1BEB02EB20A9FCD1005C9C81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BEB02EC20A9FCD8005C9C81 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		1BEB02ED20A9FCDE005C9C81 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		1BEB02EE20A9FD41005C9C81 /* Calibrating */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB02F120A9FD68005C9C81 /* Module Interface */,
+				1BEB02F020A9FD60005C9C81 /* Application Logic */,
+				1BEB02EF20A9FD56005C9C81 /* User Interface */,
+			);
+			path = Calibrating;
+			sourceTree = "<group>";
+		};
+		1BEB02EF20A9FD56005C9C81 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB02F620A9FD95005C9C81 /* Presenter */,
+				1BEB02F520A9FD8E005C9C81 /* Wireframe */,
+				1BEB02F420A9FD89005C9C81 /* View */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		1BEB02F020A9FD60005C9C81 /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB02F320A9FD7F005C9C81 /* Interactor */,
+				1BEB02F220A9FD79005C9C81 /* Manager */,
+			);
+			path = "Application Logic";
+			sourceTree = "<group>";
+		};
+		1BEB02F120A9FD68005C9C81 /* Module Interface */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Module Interface";
+			sourceTree = "<group>";
+		};
+		1BEB02F220A9FD79005C9C81 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		1BEB02F320A9FD7F005C9C81 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		1BEB02F420A9FD89005C9C81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BEB02F520A9FD8E005C9C81 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		1BEB02F620A9FD95005C9C81 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		1BEB02F720A9FDD3005C9C81 /* Congratulations */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB02FA20A9FECF005C9C81 /* Module Interface */,
+				1BEB02F920A9FEC3005C9C81 /* Application Logic */,
+				1BEB02F820A9FEB9005C9C81 /* User Interface */,
+			);
+			path = Congratulations;
+			sourceTree = "<group>";
+		};
+		1BEB02F820A9FEB9005C9C81 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB02FF20A9FEFD005C9C81 /* Presenter */,
+				1BEB02FE20A9FEF6005C9C81 /* Wireframe */,
+				1BEB02FD20A9FEEF005C9C81 /* View */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		1BEB02F920A9FEC3005C9C81 /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB02FC20A9FEE2005C9C81 /* Interactor */,
+				1BEB02FB20A9FEDC005C9C81 /* Manager */,
+			);
+			path = "Application Logic";
+			sourceTree = "<group>";
+		};
+		1BEB02FA20A9FECF005C9C81 /* Module Interface */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Module Interface";
+			sourceTree = "<group>";
+		};
+		1BEB02FB20A9FEDC005C9C81 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		1BEB02FC20A9FEE2005C9C81 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		1BEB02FD20A9FEEF005C9C81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BEB02FE20A9FEF6005C9C81 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		1BEB02FF20A9FEFD005C9C81 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		1BEB030020A9FF8B005C9C81 /* StartTakingCharge */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB030320A9FFBA005C9C81 /* Module Interface */,
+				1BEB030220A9FFB0005C9C81 /* Application Logic */,
+				1BEB030120A9FFA6005C9C81 /* User Interface */,
+			);
+			path = StartTakingCharge;
+			sourceTree = "<group>";
+		};
+		1BEB030120A9FFA6005C9C81 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB030820A9FFF8005C9C81 /* Presenter */,
+				1BEB030720A9FFF0005C9C81 /* Wireframe */,
+				1BEB030620A9FFE9005C9C81 /* View */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		1BEB030220A9FFB0005C9C81 /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB030520A9FFCF005C9C81 /* Interactor */,
+				1BEB030420A9FFC6005C9C81 /* Manager */,
+			);
+			path = "Application Logic";
+			sourceTree = "<group>";
+		};
+		1BEB030320A9FFBA005C9C81 /* Module Interface */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Module Interface";
+			sourceTree = "<group>";
+		};
+		1BEB030420A9FFC6005C9C81 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		1BEB030520A9FFCF005C9C81 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		1BEB030620A9FFE9005C9C81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BEB030720A9FFF0005C9C81 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		1BEB030820A9FFF8005C9C81 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		1BEB030920AA0021005C9C81 /* ProductOffers */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB030C20AA004F005C9C81 /* Module Interface */,
+				1BEB030B20AA0044005C9C81 /* Application Logic */,
+				1BEB030A20AA0039005C9C81 /* User Interface */,
+			);
+			path = ProductOffers;
+			sourceTree = "<group>";
+		};
+		1BEB030A20AA0039005C9C81 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB031120AA007C005C9C81 /* Presenter */,
+				1BEB031020AA0076005C9C81 /* Wireframe */,
+				1BEB030F20AA0071005C9C81 /* View */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		1BEB030B20AA0044005C9C81 /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB030E20AA0068005C9C81 /* Interactor */,
+				1BEB030D20AA0061005C9C81 /* Manager */,
+			);
+			path = "Application Logic";
+			sourceTree = "<group>";
+		};
+		1BEB030C20AA004F005C9C81 /* Module Interface */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Module Interface";
+			sourceTree = "<group>";
+		};
+		1BEB030D20AA0061005C9C81 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		1BEB030E20AA0068005C9C81 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		1BEB030F20AA0071005C9C81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BEB031020AA0076005C9C81 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		1BEB031120AA007C005C9C81 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		1BEB031220AA0099005C9C81 /* HairDressers */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB031620AA0145005C9C81 /* Module Interface */,
+				1BEB031520AA013B005C9C81 /* Application Logic */,
+				1BEB031420AA0133005C9C81 /* User Interface */,
+			);
+			path = HairDressers;
+			sourceTree = "<group>";
+		};
+		1BEB031320AA00EE005C9C81 /* HairLog */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB031E20AA018E005C9C81 /* Module Interface */,
+				1BEB031D20AA0184005C9C81 /* Application Logic */,
+				1BEB031C20AA017A005C9C81 /* User Interface */,
+			);
+			path = HairLog;
+			sourceTree = "<group>";
+		};
+		1BEB031420AA0133005C9C81 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB031B20AA016E005C9C81 /* Presenter */,
+				1BEB031A20AA0167005C9C81 /* Wireframe */,
+				1BEB031920AA0162005C9C81 /* View */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		1BEB031520AA013B005C9C81 /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB031820AA0157005C9C81 /* Interactor */,
+				1BEB031720AA0150005C9C81 /* Manager */,
+			);
+			path = "Application Logic";
+			sourceTree = "<group>";
+		};
+		1BEB031620AA0145005C9C81 /* Module Interface */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Module Interface";
+			sourceTree = "<group>";
+		};
+		1BEB031720AA0150005C9C81 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		1BEB031820AA0157005C9C81 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		1BEB031920AA0162005C9C81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BEB031A20AA0167005C9C81 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		1BEB031B20AA016E005C9C81 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		1BEB031C20AA017A005C9C81 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB032320AA01CF005C9C81 /* Presenter */,
+				1BEB032220AA01C8005C9C81 /* Wireframe */,
+				1BEB032120AA01C2005C9C81 /* View */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		1BEB031D20AA0184005C9C81 /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB032020AA01B6005C9C81 /* Interactor */,
+				1BEB031F20AA0198005C9C81 /* Manager */,
+			);
+			path = "Application Logic";
+			sourceTree = "<group>";
+		};
+		1BEB031E20AA018E005C9C81 /* Module Interface */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Module Interface";
+			sourceTree = "<group>";
+		};
+		1BEB031F20AA0198005C9C81 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		1BEB032020AA01B6005C9C81 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		1BEB032120AA01C2005C9C81 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BEB032220AA01C8005C9C81 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		1BEB032320AA01CF005C9C81 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		1BEB032420AA0221005C9C81 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB032720AA0241005C9C81 /* Protocols */,
+				1BEB032620AA023A005C9C81 /* Extensions */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		1BEB032520AA0227005C9C81 /* Error Handling */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Error Handling";
+			sourceTree = "<group>";
+		};
+		1BEB032620AA023A005C9C81 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB036A20AA2403005C9C81 /* PropertyLooper+Default.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1BEB032720AA0241005C9C81 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				1BEB035820AA218B005C9C81 /* PropertyLooperProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1BB7504820A4240300A9F745 /* HairDay */ = {
+		1B663AF120A9A245008C40DD /* HairDay QA */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1BB7507120A4240400A9F745 /* Build configuration list for PBXNativeTarget "HairDay" */;
+			buildConfigurationList = 1B663AFA20A9A245008C40DD /* Build configuration list for PBXNativeTarget "HairDay QA" */;
+			buildPhases = (
+				1B663AF220A9A245008C40DD /* Sources */,
+				1B663AF520A9A245008C40DD /* Frameworks */,
+				1B663AF620A9A245008C40DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HairDay QA";
+			productName = HairDay;
+			productReference = 1B663AFD20A9A245008C40DD /* HairDay QA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B663AFF20A9A28D008C40DD /* HairDay PROD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B663B0820A9A28D008C40DD /* Build configuration list for PBXNativeTarget "HairDay PROD" */;
+			buildPhases = (
+				1B663B0020A9A28D008C40DD /* Sources */,
+				1B663B0320A9A28D008C40DD /* Frameworks */,
+				1B663B0420A9A28D008C40DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HairDay PROD";
+			productName = HairDay;
+			productReference = 1B663B0B20A9A28D008C40DD /* HairDay PROD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1BB7504820A4240300A9F745 /* HairDay DEV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BB7507120A4240400A9F745 /* Build configuration list for PBXNativeTarget "HairDay DEV" */;
 			buildPhases = (
 				1BB7504520A4240300A9F745 /* Sources */,
 				1BB7504620A4240300A9F745 /* Frameworks */,
@@ -164,9 +1220,9 @@
 			);
 			dependencies = (
 			);
-			name = HairDay;
+			name = "HairDay DEV";
 			productName = HairDay;
-			productReference = 1BB7504920A4240300A9F745 /* HairDay.app */;
+			productReference = 1BB7504920A4240300A9F745 /* HairDay DEV.app */;
 			productType = "com.apple.product-type.application";
 		};
 		1BB7505C20A4240300A9F745 /* HairDayTests */ = {
@@ -215,6 +1271,12 @@
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Enrico Boller";
 				TargetAttributes = {
+					1B663AF120A9A245008C40DD = {
+						ProvisioningStyle = Automatic;
+					};
+					1B663AFF20A9A28D008C40DD = {
+						ProvisioningStyle = Automatic;
+					};
 					1BB7504820A4240300A9F745 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -244,7 +1306,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1BB7504820A4240300A9F745 /* HairDay */,
+				1BB7504820A4240300A9F745 /* HairDay DEV */,
+				1B663AF120A9A245008C40DD /* HairDay QA */,
+				1B663AFF20A9A28D008C40DD /* HairDay PROD */,
 				1BB7505C20A4240300A9F745 /* HairDayTests */,
 				1BB7506720A4240400A9F745 /* HairDayUITests */,
 			);
@@ -252,12 +1316,41 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1B663AF620A9A245008C40DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B663B1420A9A351008C40DD /* Info-DEV.plist in Resources */,
+				1B663AF720A9A245008C40DD /* LaunchScreen.storyboard in Resources */,
+				1B663AF820A9A245008C40DD /* Assets.xcassets in Resources */,
+				1B663B1720A9A351008C40DD /* Info-PROD.plist in Resources */,
+				1B663B1120A9A351008C40DD /* Info-QA.plist in Resources */,
+				1B663AF920A9A245008C40DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B663B0420A9A28D008C40DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B663B1520A9A351008C40DD /* Info-DEV.plist in Resources */,
+				1B663B0520A9A28D008C40DD /* LaunchScreen.storyboard in Resources */,
+				1B663B0620A9A28D008C40DD /* Assets.xcassets in Resources */,
+				1B663B1820A9A351008C40DD /* Info-PROD.plist in Resources */,
+				1B663B1220A9A351008C40DD /* Info-QA.plist in Resources */,
+				1B663B0720A9A28D008C40DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1BB7504720A4240300A9F745 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B663B1320A9A351008C40DD /* Info-DEV.plist in Resources */,
 				1BB7505720A4240300A9F745 /* LaunchScreen.storyboard in Resources */,
 				1BB7505420A4240300A9F745 /* Assets.xcassets in Resources */,
+				1B663B1620A9A351008C40DD /* Info-PROD.plist in Resources */,
+				1B663B1020A9A351008C40DD /* Info-QA.plist in Resources */,
 				1BB7505220A4240300A9F745 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,12 +1372,81 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1B663AF220A9A245008C40DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BEB032A20AA0293005C9C81 /* BaseWireframe.swift in Sources */,
+				1BEB035420AA1E98005C9C81 /* WelcomePresenter.swift in Sources */,
+				1BEB037220AA2D31005C9C81 /* WelcomeModuleProtocol.swift in Sources */,
+				1BEB037820AA2E39005C9C81 /* WelcomeInteractorIO.swift in Sources */,
+				1BEB033620AA0577005C9C81 /* HairDayTheme.swift in Sources */,
+				1BEB039020AA3C12005C9C81 /* AppDependencies.swift in Sources */,
+				1BEB038420AA370E005C9C81 /* ScalpCaptureWireframe.swift in Sources */,
+				1BEB036C20AA2403005C9C81 /* PropertyLooper+Default.swift in Sources */,
+				1BEB033C20AA1BEF005C9C81 /* RootWireframe.swift in Sources */,
+				1BEB037E20AA2EE5005C9C81 /* WelcomeInteractor.swift in Sources */,
+				1BEB034E20AA1E54005C9C81 /* WelcomeView.swift in Sources */,
+				1BEB036020AA220C005C9C81 /* BaseDisplayItem.swift in Sources */,
+				1BEB035A20AA218B005C9C81 /* PropertyLooperProtocol.swift in Sources */,
+				1BEB034220AA1C85005C9C81 /* BaseView.swift in Sources */,
+				1BEB038A20AA38FC005C9C81 /* ScalpCaptureView.swift in Sources */,
+				1BEB033020AA030D005C9C81 /* HairDay.swift in Sources */,
+				1B663AF420A9A245008C40DD /* AppDelegate.swift in Sources */,
+				1BEB036620AA2271005C9C81 /* UserDisplayItem.swift in Sources */,
+				1BEB034820AA1DCB005C9C81 /* WelcomeWireframe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B663B0020A9A28D008C40DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BEB032B20AA0293005C9C81 /* BaseWireframe.swift in Sources */,
+				1BEB035520AA1E98005C9C81 /* WelcomePresenter.swift in Sources */,
+				1BEB037320AA2D31005C9C81 /* WelcomeModuleProtocol.swift in Sources */,
+				1BEB037920AA2E39005C9C81 /* WelcomeInteractorIO.swift in Sources */,
+				1BEB033720AA0577005C9C81 /* HairDayTheme.swift in Sources */,
+				1BEB039120AA3C12005C9C81 /* AppDependencies.swift in Sources */,
+				1BEB038520AA370E005C9C81 /* ScalpCaptureWireframe.swift in Sources */,
+				1BEB036D20AA2403005C9C81 /* PropertyLooper+Default.swift in Sources */,
+				1BEB033D20AA1BEF005C9C81 /* RootWireframe.swift in Sources */,
+				1BEB037F20AA2EE5005C9C81 /* WelcomeInteractor.swift in Sources */,
+				1BEB034F20AA1E54005C9C81 /* WelcomeView.swift in Sources */,
+				1BEB036120AA220C005C9C81 /* BaseDisplayItem.swift in Sources */,
+				1BEB035B20AA218B005C9C81 /* PropertyLooperProtocol.swift in Sources */,
+				1BEB034320AA1C85005C9C81 /* BaseView.swift in Sources */,
+				1BEB038B20AA38FC005C9C81 /* ScalpCaptureView.swift in Sources */,
+				1BEB033120AA030D005C9C81 /* HairDay.swift in Sources */,
+				1B663B0220A9A28D008C40DD /* AppDelegate.swift in Sources */,
+				1BEB036720AA2271005C9C81 /* UserDisplayItem.swift in Sources */,
+				1BEB034920AA1DCB005C9C81 /* WelcomeWireframe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1BB7504520A4240300A9F745 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BB7504F20A4240300A9F745 /* ViewController.swift in Sources */,
+				1BEB032920AA0293005C9C81 /* BaseWireframe.swift in Sources */,
+				1BEB035320AA1E98005C9C81 /* WelcomePresenter.swift in Sources */,
+				1BEB037120AA2D31005C9C81 /* WelcomeModuleProtocol.swift in Sources */,
+				1BEB037720AA2E39005C9C81 /* WelcomeInteractorIO.swift in Sources */,
+				1BEB033520AA0577005C9C81 /* HairDayTheme.swift in Sources */,
+				1BEB038F20AA3C12005C9C81 /* AppDependencies.swift in Sources */,
+				1BEB038320AA370E005C9C81 /* ScalpCaptureWireframe.swift in Sources */,
+				1BEB036B20AA2403005C9C81 /* PropertyLooper+Default.swift in Sources */,
+				1BEB033B20AA1BEF005C9C81 /* RootWireframe.swift in Sources */,
+				1BEB037D20AA2EE5005C9C81 /* WelcomeInteractor.swift in Sources */,
+				1BEB034D20AA1E54005C9C81 /* WelcomeView.swift in Sources */,
+				1BEB035F20AA220C005C9C81 /* BaseDisplayItem.swift in Sources */,
+				1BEB035920AA218B005C9C81 /* PropertyLooperProtocol.swift in Sources */,
+				1BEB034120AA1C85005C9C81 /* BaseView.swift in Sources */,
+				1BEB038920AA38FC005C9C81 /* ScalpCaptureView.swift in Sources */,
+				1BEB032F20AA030D005C9C81 /* HairDay.swift in Sources */,
 				1BB7504D20A4240300A9F745 /* AppDelegate.swift in Sources */,
+				1BEB036520AA2271005C9C81 /* UserDisplayItem.swift in Sources */,
+				1BEB034720AA1DCB005C9C81 /* WelcomeWireframe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +1454,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BEB038620AA370E005C9C81 /* ScalpCaptureWireframe.swift in Sources */,
+				1BEB037420AA2D31005C9C81 /* WelcomeModuleProtocol.swift in Sources */,
+				1BEB037A20AA2E39005C9C81 /* WelcomeInteractorIO.swift in Sources */,
+				1BEB034A20AA1DCB005C9C81 /* WelcomeWireframe.swift in Sources */,
+				1BEB035C20AA218B005C9C81 /* PropertyLooperProtocol.swift in Sources */,
+				1BEB039220AA3C12005C9C81 /* AppDependencies.swift in Sources */,
+				1BEB035620AA1E98005C9C81 /* WelcomePresenter.swift in Sources */,
+				1BEB033E20AA1BEF005C9C81 /* RootWireframe.swift in Sources */,
+				1BEB036820AA2271005C9C81 /* UserDisplayItem.swift in Sources */,
+				1BEB033220AA030D005C9C81 /* HairDay.swift in Sources */,
+				1BEB035020AA1E54005C9C81 /* WelcomeView.swift in Sources */,
+				1BEB038020AA2EE5005C9C81 /* WelcomeInteractor.swift in Sources */,
 				1BB7506220A4240300A9F745 /* HairDayTests.swift in Sources */,
+				1BEB034420AA1C85005C9C81 /* BaseView.swift in Sources */,
+				1BEB033820AA0577005C9C81 /* HairDayTheme.swift in Sources */,
+				1BEB038C20AA38FC005C9C81 /* ScalpCaptureView.swift in Sources */,
+				1BEB036220AA220C005C9C81 /* BaseDisplayItem.swift in Sources */,
+				1BEB036E20AA2403005C9C81 /* PropertyLooper+Default.swift in Sources */,
+				1BEB032C20AA0293005C9C81 /* BaseWireframe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +1480,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BEB038720AA370E005C9C81 /* ScalpCaptureWireframe.swift in Sources */,
+				1BEB037520AA2D31005C9C81 /* WelcomeModuleProtocol.swift in Sources */,
+				1BEB037B20AA2E39005C9C81 /* WelcomeInteractorIO.swift in Sources */,
+				1BEB034B20AA1DCB005C9C81 /* WelcomeWireframe.swift in Sources */,
+				1BEB035D20AA218B005C9C81 /* PropertyLooperProtocol.swift in Sources */,
+				1BEB039320AA3C12005C9C81 /* AppDependencies.swift in Sources */,
+				1BEB035720AA1E98005C9C81 /* WelcomePresenter.swift in Sources */,
+				1BEB033F20AA1BEF005C9C81 /* RootWireframe.swift in Sources */,
+				1BEB036920AA2271005C9C81 /* UserDisplayItem.swift in Sources */,
+				1BEB033320AA030D005C9C81 /* HairDay.swift in Sources */,
+				1BEB035120AA1E54005C9C81 /* WelcomeView.swift in Sources */,
+				1BEB038120AA2EE5005C9C81 /* WelcomeInteractor.swift in Sources */,
 				1BB7506D20A4240400A9F745 /* HairDayUITests.swift in Sources */,
+				1BEB034520AA1C85005C9C81 /* BaseView.swift in Sources */,
+				1BEB033920AA0577005C9C81 /* HairDayTheme.swift in Sources */,
+				1BEB038D20AA38FC005C9C81 /* ScalpCaptureView.swift in Sources */,
+				1BEB036320AA220C005C9C81 /* BaseDisplayItem.swift in Sources */,
+				1BEB036F20AA2403005C9C81 /* PropertyLooper+Default.swift in Sources */,
+				1BEB032D20AA0293005C9C81 /* BaseWireframe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,12 +1507,12 @@
 /* Begin PBXTargetDependency section */
 		1BB7505F20A4240300A9F745 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1BB7504820A4240300A9F745 /* HairDay */;
+			target = 1BB7504820A4240300A9F745 /* HairDay DEV */;
 			targetProxy = 1BB7505E20A4240300A9F745 /* PBXContainerItemProxy */;
 		};
 		1BB7506A20A4240400A9F745 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1BB7504820A4240300A9F745 /* HairDay */;
+			target = 1BB7504820A4240300A9F745 /* HairDay DEV */;
 			targetProxy = 1BB7506920A4240400A9F745 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -339,6 +1537,62 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		1B663AFB20A9A245008C40DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HairDay/Support Files/Info-QA.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeltatech.HairDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B663AFC20A9A245008C40DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HairDay/Support Files/Info-QA.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeltatech.HairDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1B663B0920A9A28D008C40DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HairDay/Support Files/Info-PROD.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeltatech.HairDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B663B0A20A9A28D008C40DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HairDay/Support Files/Info-PROD.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeltatech.HairDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		1BB7506F20A4240400A9F745 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -451,7 +1705,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HairDay/Info.plist;
+				INFOPLIST_FILE = "HairDay/Support Files/Info-DEV.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zeltatech.HairDay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -465,7 +1719,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HairDay/Info.plist;
+				INFOPLIST_FILE = "HairDay/Support Files/Info-DEV.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zeltatech.HairDay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -539,6 +1793,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1B663AFA20A9A245008C40DD /* Build configuration list for PBXNativeTarget "HairDay QA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B663AFB20A9A245008C40DD /* Debug */,
+				1B663AFC20A9A245008C40DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B663B0820A9A28D008C40DD /* Build configuration list for PBXNativeTarget "HairDay PROD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B663B0920A9A28D008C40DD /* Debug */,
+				1B663B0A20A9A28D008C40DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		1BB7504420A4240300A9F745 /* Build configuration list for PBXProject "HairDay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -548,7 +1820,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1BB7507120A4240400A9F745 /* Build configuration list for PBXNativeTarget "HairDay" */ = {
+		1BB7507120A4240400A9F745 /* Build configuration list for PBXNativeTarget "HairDay DEV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1BB7507220A4240400A9F745 /* Debug */,
