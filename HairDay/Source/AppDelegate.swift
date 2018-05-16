@@ -12,11 +12,11 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    let appDependencies = AppDependencies()
+//    let appDependencies = AppDependencies()
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        appDependencies.installRootViewController(InWindow: window!)
+//        appDependencies.installRootViewController(InWindow: window!)
         return true
     }
 
@@ -26,7 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationDidEnterBackground(_ application: UIApplication) {
-        appDependencies.showWelcomeViewAndClearSession(InWindow: window!)
+//        appDependencies.showWelcomeViewAndClearSession(InWindow: window!)
     }
 
     func applicationWillEnterForeground(_ application: UIApplication) {

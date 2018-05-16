@@ -100,6 +100,20 @@ class HairDayHairDresserDescriptionLabel: UILabel {
     }
 }
 
+class HairDayCalibrationHeaderLabel: UILabel {
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        changeFontName()
+    }
+    
+    func changeFontName()
+    {
+        self.font = HairDayStyle.Fonts.hairDayHairCalibrationHeaderFont
+        self.textColor = HairDayStyle.hairDayCalibrationHeaderLabelColor
+    }
+}
+
 class HairDayAnalysisHeaderLabel: UILabel {
     
     override func awakeFromNib() {
@@ -144,6 +158,29 @@ class HairDayRoundedButton : UIButton {
     
     func specifyBounds() {
         self.layer.cornerRadius = self.frame.height / 2.0
-        self.layer.borderWidth = 1.0
+        self.layer.borderWidth = 0.0
+    }
+}
+
+class HairDayAnswersButton: UIButton {
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        changeFontName()
+        specifyBounds()
+    }
+    
+    func changeFontName()
+    {
+        self.titleLabel?.font = HairDayStyle.Fonts.hairDayAnswersLabelFont
+        self.titleLabel?.numberOfLines = 2
+        self.titleLabel?.adjustsFontSizeToFitWidth = true
+        self.titleLabel?.textColor = HairDayStyle.hairDayAnswersLabelColor
+    }
+    
+    func specifyBounds() {
+        self.layer.backgroundColor = HairDayStyle.hairDayAnswersLabelBackgroundColor.cgColor
+        self.layer.cornerRadius = self.frame.height / 2.0
+        self.layer.borderWidth = 0.0
     }
 }
