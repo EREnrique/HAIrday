@@ -9,129 +9,142 @@
 import UIKit
 import AVFoundation
 
-class ScalpCaptureView: BaseView {
+class ScalpCaptureView: BaseView, AVCapturePhotoCaptureDelegate {
     @IBOutlet weak var cameraView: UIView!
     
-    let captureSession = AVCaptureSession()
-    var captureDevice: AVCaptureDevice?
-    var previewLayer: AVCaptureVideoPreviewLayer?
-    var frontCamera: Bool = false
-    var stillImageOutput: AVCaptureStillImageOutput = AVCaptureStillImageOutput()
+    var eventHandler : ScalpCaptureModuleProtocol?
+    var captureSession = AVCaptureSession()
+    var backCamera : AVCaptureDevice?
+    var frontCamera : AVCaptureDevice?
+    var currentCamera : AVCaptureDevice?
+    
+    var photoOutput : AVCapturePhotoOutput?
+    
+    var cameraPreviewLayer : AVCaptureVideoPreviewLayer?
+    var image : UIImage?
+    var isBackCamera = true
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        captureSession.sessionPreset = AVCaptureSession.Preset.photo
-        frontCamera(frontCamera)
-        if captureDevice != nil {
-            beginSession()
-        }
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        setupCaptureSession()
+        setupDevice()
+        setupInitialCameraView()
+        setupInputOutput()
+        setupPreviewLayer()
+        startRunningCaptureSession()
     }
     
     //MARK: Helper Methods
-    func beginSession() {
-        previewLayer = AVCaptureVideoPreviewLayer(session: captureSession)
-        self.cameraView.layer.addSublayer(previewLayer!)
-        previewLayer?.frame = self.cameraView.layer.bounds
-        previewLayer?.videoGravity = AVLayerVideoGravity.resizeAspectFill
-        captureSession.startRunning()
-        stillImageOutput.outputSettings = [AVVideoCodecKey : AVVideoCodecJPEG]
-        if captureSession.canAddOutput(stillImageOutput) {
-            captureSession.addOutput(stillImageOutput)
-        }
+    func setupCaptureSession() {
+        captureSession.sessionPreset = AVCaptureSession.Preset.photo
     }
     
-    func frontCamera(_ front: Bool) {
-        let devices = AVCaptureDevice.devices()
-        
-        clearCaptureDevice()
+    func setupDevice() {
+        let deviceDiscoverySession = AVCaptureDevice.DiscoverySession(
+            deviceTypes: [AVCaptureDevice.DeviceType.builtInWideAngleCamera],
+            mediaType: AVMediaType.video,
+            position: AVCaptureDevice.Position.unspecified)
+        let devices = deviceDiscoverySession.devices
         
         for device in devices {
-            if((device as AnyObject).hasMediaType(AVMediaType.video)) {
-                if front {
-                    if((device as AnyObject).position == AVCaptureDevice.Position.front) {
-                        captureDevice = device as AVCaptureDevice
-                        
-                        do{
-                            try captureSession.addInput(AVCaptureDeviceInput(device: captureDevice!))
-                        } catch {
-                            
-                        }
-                        break
-                        
-                        
-                    }
-                } else {
-                    if((device as AnyObject).position == AVCaptureDevice.Position.back) {
-                        captureDevice = device as AVCaptureDevice
-                        
-                        do{
-                            try captureSession.addInput(AVCaptureDeviceInput(device: captureDevice!))
-                        } catch {
-                            
-                        }
-                        break
-                    }
-                }
+            if device.position == AVCaptureDevice.Position.back {
+                backCamera = device
+            } else if device.position == AVCaptureDevice.Position.front {
+                frontCamera = device
             }
-            
-            
         }
-        
     }
     
-    func clearCaptureDevice() {
-        do{
-            if captureDevice != nil {
-                try captureSession.removeInput(AVCaptureDeviceInput(device: captureDevice!))
+    func setupInitialCameraView() {
+        currentCamera = backCamera
+        isBackCamera = true
+    }
+    
+    func setupInputOutput() {
+        do {
+            let captureDeviceInput = try AVCaptureDeviceInput(device: currentCamera!)
+            captureSession.addInput(captureDeviceInput)
+            photoOutput = AVCapturePhotoOutput()
+            photoOutput?.setPreparedPhotoSettingsArray(
+                [AVCapturePhotoSettings(format: [AVVideoCodecKey: AVVideoCodecType.jpeg])],
+                completionHandler: nil)
+            let captureSessionOutputs = captureSession.outputs
+            guard captureSessionOutputs.count > 0 else {
+                captureSession.addOutput(photoOutput!)
+                return
             }
         } catch {
-            print("Camera Error")
+            print(error)
         }
     }
     
-    func cameraWithPosition(_ position: AVCaptureDevice.Position) -> AVCaptureDevice? {
-        let deviceDescoverySession = AVCaptureDevice.DiscoverySession.init(deviceTypes: [AVCaptureDevice.DeviceType.builtInWideAngleCamera], mediaType: AVMediaType.video, position: AVCaptureDevice.Position.unspecified)
-        
-        for device in deviceDescoverySession.devices {
-            if device.position == position {
-                return device
-            }
-        }
-        return nil
+    func setupPreviewLayer() {
+        cameraPreviewLayer = AVCaptureVideoPreviewLayer(session: captureSession)
+        cameraPreviewLayer?.videoGravity = AVLayerVideoGravity.resizeAspectFill
+        cameraPreviewLayer?.connection?.videoOrientation = AVCaptureVideoOrientation.portrait
+        cameraPreviewLayer?.frame = cameraView.frame
+        cameraView.layer.insertSublayer(cameraPreviewLayer!, at: 0)
+    }
+    
+    func resetPreviewLayer() {
+        cameraPreviewLayer = AVCaptureVideoPreviewLayer(session: captureSession)
+        cameraPreviewLayer?.videoGravity = AVLayerVideoGravity.resizeAspectFill
+        cameraPreviewLayer?.connection?.videoOrientation = AVCaptureVideoOrientation.portrait
+        cameraPreviewLayer?.frame = cameraView.bounds
+        cameraView.layer.insertSublayer(cameraPreviewLayer!, at: 0)
+    }
+    
+    func startRunningCaptureSession() {
+        captureSession.startRunning()
+    }
+    
+    func resetCameraSpecs() {
+        captureSession = AVCaptureSession()
+        photoOutput = nil
+        cameraPreviewLayer?.removeFromSuperlayer()
+        cameraPreviewLayer = nil
     }
     
     //MARK: Action Methods
     
     @IBAction func capturePhoto(_ sender: Any) {
-        
+        let settings = AVCapturePhotoSettings()
+        photoOutput?.capturePhoto(with: settings, delegate: self)
     }
     
     @IBAction func switchCamera(_ sender: Any) {
-        if frontCamera == true {
-            frontCamera = false
+        if currentCamera == backCamera {
+            currentCamera = frontCamera
+            isBackCamera = false
         } else {
-            frontCamera = true
+            currentCamera = backCamera
+            isBackCamera = true
         }
-        let session = AVCaptureSession()
-        let currentCameraInput: AVCaptureInput = session.inputs[0]
-        session.removeInput(currentCameraInput)
-        var newCamera: AVCaptureDevice
-        newCamera = AVCaptureDevice.default(for: AVMediaType.video)!
+
+        if let inputs = captureSession.inputs as? [AVCaptureDeviceInput] {
+            for input in inputs {
+                captureSession.removeInput(input)
+            }
+        }
+        resetCameraSpecs()
         
-        if (currentCameraInput as! AVCaptureDeviceInput).device.position == .back {
-            UIView.transition(with: self.cameraView, duration: 0.5, options: .transitionFlipFromLeft, animations: {
-                newCamera = self.cameraWithPosition(.front)!
-            }, completion: nil)
-        } else {
-            UIView.transition(with: self.cameraView, duration: 0.5, options: .transitionFlipFromRight, animations: {
-                newCamera = self.cameraWithPosition(.back)!
-            }, completion: nil)
-        }
-        do {
-            try self.captureSession.addInput(AVCaptureDeviceInput(device: newCamera))
-        }
-        catch {
-            print("error: \(error.localizedDescription)")
+        setupCaptureSession()
+        setupDevice()
+        setupInputOutput()
+        resetPreviewLayer()
+        startRunningCaptureSession()        
+    }
+    
+    //MARK: AVCapturePhotoCaptureDelegate Methods
+    func photoOutput(_ output: AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVCapturePhoto, error: Error?) {
+        if let imageData = photo.fileDataRepresentation() {
+            image = UIImage(data: imageData)
+            eventHandler?.specifyUserScalp(scalpImage: image!)
         }
     }
     

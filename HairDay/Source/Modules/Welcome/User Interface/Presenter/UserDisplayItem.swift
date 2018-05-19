@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 enum userGender: String {
     case Male="Male", Female="Female"
@@ -14,5 +15,7 @@ enum userGender: String {
 
 struct UserDisplayItem : BaseDisplayItem {
     /// variable for gender
-    let gender : userGender
+    let gender : userGender?
+    let userName : String?
+    let userImage : UIImage?
 }

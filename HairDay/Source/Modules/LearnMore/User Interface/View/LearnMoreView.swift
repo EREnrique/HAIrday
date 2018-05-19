@@ -26,13 +26,15 @@ class LearnMoreView: BaseView, UIPickerViewDelegate, UIPickerViewDataSource, UIT
     
     @IBOutlet weak var resultsButton: HairDayRoundedButton!
     
+    var eventHandler : LearnMoreModuleProtocol?
+    
     var answers1 = ["No regular meals","1-2 regular meals","All 3 regular meals"]
     var answers2 = ["Never","At least once a month","Every 1-3 months","Every 3-6 months","< Every 6 months"]
     var answers3 = ["Hair loss","Itchy or red scalp","Oily scalp","Dandruff","None of these"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        enableTapGesture()
     }
     
     //MARK: UIPickerViewDataSource
@@ -90,5 +92,9 @@ class LearnMoreView: BaseView, UIPickerViewDelegate, UIPickerViewDataSource, UIT
         }
     }
     
+    //MARK: Action Methods
+    @IBAction func proceedToResults(_ sender: Any) {
+        eventHandler?.proceedToCalibrationScreen()
+    }
     
 }

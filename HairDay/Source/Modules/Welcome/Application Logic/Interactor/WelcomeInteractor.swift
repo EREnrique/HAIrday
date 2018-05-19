@@ -13,15 +13,14 @@ class WelcomeInteractor: NSObject, WelcomeInteractorInput {
     
     let userKey = "user"
     let userGenderKey = "gender"
-    func persistUser(user: UserDisplayItem) {
+    func persistUser(user: String) {
         guard (UserDefaults.standard.object(forKey: userGenderKey) != nil) else {
-            UserDefaults.standard.set(user.gender.rawValue, forKey: userGenderKey)
+            UserDefaults.standard.set(user, forKey: userGenderKey)
             UserDefaults.standard.synchronize()
             output?.userPersisted(userPersistedStatus: true)
             return
         }
-        
-        UserDefaults.standard.set(user.gender.rawValue, forKey: userGenderKey)
+        UserDefaults.standard.set(user, forKey: userGenderKey)
         output?.userPersisted(userPersistedStatus: true)
     }
     

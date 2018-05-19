@@ -22,15 +22,13 @@ class WelcomeWireframe: BaseWireframe {
         let viewcontroller = mainStoryBoard().instantiateViewController(withIdentifier: welcomeViewIdentifier) as! WelcomeView
         viewcontroller.eventHandler = welcomePresenter
         welcomeView = viewcontroller
-        //welcomePresenter?.view = viewcontroller
         rootWireFrame?.showRootViewController(rootViewController: viewcontroller, inWindow: window)
     }
     
-    func presentLoginViewFromViewController(_ viewController: UIViewController) {
+    func presentWelcomeViewFromViewController(_ viewController: UIViewController) {
         let newViewController = welcomeViewController()
         welcomeView = newViewController
         welcomeView?.eventHandler = welcomePresenter
-        //welcomePresenter?.view = welcomeViewController
         viewController.navigationController?.pushViewController(newViewController, animated: true)
     }
     

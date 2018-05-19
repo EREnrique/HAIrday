@@ -9,5 +9,5 @@
 import Foundation
 
 protocol WelcomeModuleProtocol {
-    func specifyUser(user: UserDisplayItem)
+    func specifyUserGender(user: String)
 }

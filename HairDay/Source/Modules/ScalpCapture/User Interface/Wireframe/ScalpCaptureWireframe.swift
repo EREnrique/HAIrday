@@ -12,18 +12,23 @@ let scalpCaptureViewIdentifier = "ScalpCaptureView"
 
 class ScalpCaptureWireframe: BaseWireframe {
     var scalpCaptureView : ScalpCaptureView?
+    var scalpCapturePresenter : ScalpCapturePresenter?
+    var scalpCaptureOptionsWireframe : ScalpCaptureOptionsWireframe?
     
     func presentScalpCaptureViewFromViewController(_ viewController: UIViewController) {
         let newViewController = scalpCaptureViewController()
         scalpCaptureView = newViewController
-        //scalpCaptureView?.eventHandler = welcomePresenter
+        scalpCaptureView?.eventHandler = scalpCapturePresenter
         //welcomePresenter?.view = welcomeViewController
         viewController.navigationController?.pushViewController(newViewController, animated: true)
     }
     
+    func presentScalpCaptureOptionsView() {
+        scalpCaptureOptionsWireframe?.presentScalpCaptureOptionsViewFromViewController(scalpCaptureView!)
+    }
+    
     func scalpCaptureViewController() -> ScalpCaptureView {
-//        let viewcontroller = mainStoryBoard().instantiateViewController(withIdentifier: scalpCaptureViewIdentifier) as! ScalpCaptureView
-        let viewcontroller = mainStoryBoard().instantiateViewController(withIdentifier: "ScalpCaptureView") as! ScalpCaptureView
+        let viewcontroller = mainStoryBoard().instantiateViewController(withIdentifier: scalpCaptureViewIdentifier) as! ScalpCaptureView
         return viewcontroller
     }
 }

@@ -18,7 +18,7 @@ class WelcomePresenter: NSObject, WelcomeModuleProtocol, WelcomeInteractorOutput
     }
     
     //MARK: WelcomeModuleProtocol Methods
-    func specifyUser(user: UserDisplayItem) {
+    func specifyUserGender(user: String) {
         interactor?.persistUser(user: user)
     }
     

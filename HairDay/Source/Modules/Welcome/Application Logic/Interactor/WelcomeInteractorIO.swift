@@ -9,7 +9,7 @@
 import Foundation
 
 protocol WelcomeInteractorInput {
-    func persistUser(user: UserDisplayItem)
+    func persistUser(user: String)
 }
 
 protocol WelcomeInteractorOutput {

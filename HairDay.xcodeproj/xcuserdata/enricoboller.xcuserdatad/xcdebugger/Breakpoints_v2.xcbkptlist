@@ -4,22 +4,6 @@
    version = "2.0">
    <Breakpoints>
       <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HairDay/Source/Modules/Welcome/Application Logic/Interactor/WelcomeInteractor.swift"
-            timestampString = "548034413.431464"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
-            landmarkName = "persistUser(user:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.SwiftErrorBreakpoint">
          <BreakpointContent
             shouldBeEnabled = "Yes"
@@ -30,15 +14,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HairDay/Source/Modules/ScalpCapture/User Interface/Wireframe/ScalpCaptureWireframe.swift"
-            timestampString = "548146246.4286439"
+            timestampString = "548412840.30147"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
             landmarkName = "presentScalpCaptureViewFromViewController(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -46,15 +30,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HairDay/Source/Modules/ScalpCapture/User Interface/Wireframe/ScalpCaptureWireframe.swift"
-            timestampString = "548146246.429468"
+            timestampString = "548412840.302413"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
             landmarkName = "scalpCaptureViewController()"
             landmarkType = "7">
          </BreakpointContent>
@@ -62,15 +46,47 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "HairDay/Source/Modules/ScalpCapture/User Interface/View/ScalpCaptureView.swift"
-            timestampString = "548146246.4302191"
+            filePath = "HairDay/Source/Modules/ScalpCapture/Application Logic/Interactor/ScalpCaptureInteractor.swift"
+            timestampString = "548412840.302726"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "persistUserScalpImage(userScalpImage:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HairDay/Source/Modules/ScalpCaptureOptions/User Interface/View/ScalpCaptureOptionsView.swift"
+            timestampString = "548412840.3035001"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "displayFetchedScalpImage(scalpImage:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HairDay/Source/Modules/EnterName/User Interface/View/EnterNameView.swift"
+            timestampString = "548412840.3041511"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -78,16 +94,48 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "HairDay/Source/Modules/ScalpCapture/User Interface/View/ScalpCaptureView.swift"
-            timestampString = "548146246.430374"
+            filePath = "HairDay/Source/Modules/ScalpCaptureOptions/User Interface/View/ScalpCaptureOptionsView.swift"
+            timestampString = "548412840.304665"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "31"
             endingLineNumber = "31"
-            landmarkName = "beginSession()"
+            landmarkName = "startCreatingHairLog(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HairDay/Source/Modules/ScalpCapture/Application Logic/Interactor/ScalpCaptureInteractor.swift"
+            timestampString = "548412840.304824"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "saveImageToFile(userScalpImage:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HairDay/Source/Modules/ScalpCaptureOptions/Application Logic/Interactor/ScalpCaptureOptionsInteractor.swift"
+            timestampString = "548412840.305019"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "fetchScalpImageFromFile()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -97,13 +145,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "HairDay/Source/Modules/ScalpCapture/User Interface/View/ScalpCaptureView.swift"
-            timestampString = "548146246.430508"
+            filePath = "HairDay/Source/Modules/Calibrating/Application Logic/Interactor/CalibratingInteractor.swift"
+            timestampString = "548412840.3055871"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
-            landmarkName = "frontCamera(_:)"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "generateScalpAnalysisResult()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -113,13 +161,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "HairDay/Source/Modules/ScalpCapture/User Interface/View/ScalpCaptureView.swift"
-            timestampString = "548146246.430642"
+            filePath = "HairDay/Source/Modules/Calibrating/User Interface/Presenter/CalibratingPresenter.swift"
+            timestampString = "548412840.307748"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "109"
-            endingLineNumber = "109"
-            landmarkName = "switchCamera(_:)"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "returnGeneratedScalpAnalysis(result:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -129,13 +177,45 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "HairDay/Source/Modules/ScalpCapture/User Interface/View/ScalpCaptureView.swift"
-            timestampString = "548146246.430757"
+            filePath = "HairDay/Source/Modules/Calibrating/Application Logic/Interactor/CalibratingInteractor.swift"
+            timestampString = "548412840.3082989"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "82"
-            endingLineNumber = "82"
-            landmarkName = "clearCaptureDevice()"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "generateScalpAnalysisResult()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HairDay/Source/Modules/Congratulations/User Interface/View/CongratulationsView.swift"
+            timestampString = "548412840.3090219"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "populateView(userProperties:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HairDay/Source/Modules/Congratulations/User Interface/View/CongratulationsView.swift"
+            timestampString = "548412840.310654"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "displayOffers(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

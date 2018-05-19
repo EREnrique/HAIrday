@@ -25,9 +25,9 @@ struct HairDayStyle {
         static var hairDayHairDresserHeaderLabelFont = UIFont(name: "GillSans-Bold", size: 20)
         static var hairDayHairDresserDescriptionLabelFont = UIFont(name: "GillSans-Light", size: 20)
         static var hairDayHairCalibrationHeaderFont = UIFont(name: "GillSans-Light", size: 50)
-        static var hairDayAnalysisHeaderLabelFont = UIFont(name: "GillSans-Bold", size: 20)
-        static var hairDayAnalysisDescriptionLabelFont = UIFont(name: "GillSans-Light", size: 20)
-        static var hairDayButtonLabelFont = UIFont(name: "GillSans-Light", size: 25)
+        static var hairDayAnalysisHeaderLabelFont = UIFont(name: "GillSans-Regular", size: 17)
+        static var hairDayAnalysisDescriptionLabelFont = UIFont(name: "GillSans-Light", size: 17)
+        static var hairDayButtonLabelFont = UIFont(name: "GillSans-Light", size: 20)
     }
     
     static var hairDayHeaderColor = HairDayStyle.Colors.hairDayBlack
@@ -43,4 +43,5 @@ struct HairDayStyle {
     static var hairDayAnalysisDescriptionLabelColor = HairDayStyle.Colors.hairDayBlack
     static var hairDayButtonLabelColor = HairDayStyle.Colors.hairDayBlack
     static var hairDayButtonBackgroundColor = HairDayStyle.Colors.hairDayOrange
+    static var hairDayBoundsColor = HairDayStyle.Colors.hairDayOrange
 }

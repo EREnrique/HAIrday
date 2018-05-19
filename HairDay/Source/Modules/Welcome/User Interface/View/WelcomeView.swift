@@ -18,12 +18,10 @@ class WelcomeView: BaseView {
     
     //MARK: Action Methods
     @IBAction func femaleGenderTapped(_ sender: Any) {
-        let user = UserDisplayItem.init(gender: .Female)
-        eventHandler?.specifyUser(user: user)
+        eventHandler?.specifyUserGender(user: "Female")
     }
     
     @IBAction func MaleGenderTapped(_ sender: Any) {
-        let user = UserDisplayItem.init(gender: .Male)
-        eventHandler?.specifyUser(user: user)
+        eventHandler?.specifyUserGender(user: "Male")
     }
 }

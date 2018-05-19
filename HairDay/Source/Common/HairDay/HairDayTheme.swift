@@ -153,6 +153,8 @@ class HairDayRoundedButton : UIButton {
     func specifyFont() {
         self.titleLabel?.font = HairDayStyle.Fonts.hairDayButtonLabelFont
         self.titleLabel?.textColor = HairDayStyle.hairDayButtonLabelColor
+        self.titleLabel?.numberOfLines = 2
+        self.titleLabel?.adjustsFontSizeToFitWidth = true
         self.layer.backgroundColor = HairDayStyle.hairDayButtonBackgroundColor.cgColor
     }
     
@@ -182,5 +184,21 @@ class HairDayAnswersButton: UIButton {
         self.layer.backgroundColor = HairDayStyle.hairDayAnswersLabelBackgroundColor.cgColor
         self.layer.cornerRadius = self.frame.height / 2.0
         self.layer.borderWidth = 0.0
+    }
+}
+
+//MARK: View Classes
+
+class HairLogView : UIView {
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        specifyBounds()
+    }
+    
+    func specifyBounds() {
+        self.layer.borderColor = HairDayStyle.hairDayBoundsColor.cgColor
+//        self.layer.cornerRadius = self.frame.height / 2.0
+        self.layer.cornerRadius = 10
+        self.layer.borderWidth = 2.0
     }
 }
