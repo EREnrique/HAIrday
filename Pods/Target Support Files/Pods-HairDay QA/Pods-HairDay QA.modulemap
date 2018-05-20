@@ -1,0 +1,6 @@
+framework module Pods_HairDay_QA {
+  umbrella header "Pods-HairDay QA-umbrella.h"
+
+  export *
+  module * { export * }
+}

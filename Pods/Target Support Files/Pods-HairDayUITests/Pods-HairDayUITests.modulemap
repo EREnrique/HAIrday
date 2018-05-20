@@ -1,0 +1,6 @@
+framework module Pods_HairDayUITests {
+  umbrella header "Pods-HairDayUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

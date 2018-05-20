@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0450BA0CAD8750BF1B43A10E /* Pods_HairDay_QA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 476BF1012B443B9272C4D2EC /* Pods_HairDay_QA.framework */; };
+		1A238C15E02902D4CBECCC63 /* Pods_HairDay_DEV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C230F8DA24C7F6D72844D96 /* Pods_HairDay_DEV.framework */; };
 		1B12AB5C20AD9C1F008EB164 /* ScalpCaptureIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B12AB5B20AD9C1F008EB164 /* ScalpCaptureIO.swift */; };
 		1B12AB5D20AD9C1F008EB164 /* ScalpCaptureIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B12AB5B20AD9C1F008EB164 /* ScalpCaptureIO.swift */; };
 		1B12AB5E20AD9C1F008EB164 /* ScalpCaptureIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B12AB5B20AD9C1F008EB164 /* ScalpCaptureIO.swift */; };
@@ -286,14 +288,11 @@
 		1B663B0620A9A28D008C40DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BB7505320A4240300A9F745 /* Assets.xcassets */; };
 		1B663B0720A9A28D008C40DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BB7505020A4240300A9F745 /* Main.storyboard */; };
 		1B663B1020A9A351008C40DD /* Info-QA.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B663B0D20A9A351008C40DD /* Info-QA.plist */; };
-		1B663B1120A9A351008C40DD /* Info-QA.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B663B0D20A9A351008C40DD /* Info-QA.plist */; };
 		1B663B1220A9A351008C40DD /* Info-QA.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B663B0D20A9A351008C40DD /* Info-QA.plist */; };
-		1B663B1320A9A351008C40DD /* Info-DEV.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B663B0E20A9A351008C40DD /* Info-DEV.plist */; };
 		1B663B1420A9A351008C40DD /* Info-DEV.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B663B0E20A9A351008C40DD /* Info-DEV.plist */; };
 		1B663B1520A9A351008C40DD /* Info-DEV.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B663B0E20A9A351008C40DD /* Info-DEV.plist */; };
 		1B663B1620A9A351008C40DD /* Info-PROD.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B663B0F20A9A351008C40DD /* Info-PROD.plist */; };
 		1B663B1720A9A351008C40DD /* Info-PROD.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B663B0F20A9A351008C40DD /* Info-PROD.plist */; };
-		1B663B1820A9A351008C40DD /* Info-PROD.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B663B0F20A9A351008C40DD /* Info-PROD.plist */; };
 		1BB4609420ABC4D70075B97B /* LearnMoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB4609320ABC4D70075B97B /* LearnMoreView.swift */; };
 		1BB4609520ABC4D80075B97B /* LearnMoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB4609320ABC4D70075B97B /* LearnMoreView.swift */; };
 		1BB4609620ABC4D80075B97B /* LearnMoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB4609320ABC4D70075B97B /* LearnMoreView.swift */; };
@@ -410,6 +409,9 @@
 		1BEB039120AA3C12005C9C81 /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB038E20AA3C12005C9C81 /* AppDependencies.swift */; };
 		1BEB039220AA3C12005C9C81 /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB038E20AA3C12005C9C81 /* AppDependencies.swift */; };
 		1BEB039320AA3C12005C9C81 /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB038E20AA3C12005C9C81 /* AppDependencies.swift */; };
+		6C2934ED4E8025DC4C966570 /* Pods_HairDayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9110B3E684A161372816E2 /* Pods_HairDayUITests.framework */; };
+		801BEA71F172C1032D26693D /* Pods_HairDayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7ED14AC1D7C1D5E3EA6EE6D /* Pods_HairDayTests.framework */; };
+		962B7C116F3C69784A4E8E1F /* Pods_HairDay_PROD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 642570D3F7979985FF484746 /* Pods_HairDay_PROD.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -430,6 +432,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11A4CC443BA47B433AA541B3 /* Pods-HairDayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HairDayUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HairDayUITests/Pods-HairDayUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		1B12AB5B20AD9C1F008EB164 /* ScalpCaptureIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScalpCaptureIO.swift; sourceTree = "<group>"; };
 		1B12AB6120AD9D9B008EB164 /* ScalpCaptureInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScalpCaptureInteractor.swift; sourceTree = "<group>"; };
 		1B12AB6720AD9F94008EB164 /* ScalpCaptureOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScalpCaptureOptionsView.swift; sourceTree = "<group>"; };
@@ -485,9 +488,7 @@
 		1B12AC9C20B0277E008EB164 /* StartTakeChargeHairTreatmentMale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartTakeChargeHairTreatmentMale.swift; sourceTree = "<group>"; };
 		1B12ACA220B04F7D008EB164 /* HairLogViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HairLogViewScreen.swift; sourceTree = "<group>"; };
 		1B663AFD20A9A245008C40DD /* HairDay QA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HairDay QA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B663AFE20A9A245008C40DD /* HairDay copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "HairDay copy-Info.plist"; path = "/Users/enricoboller/Documents/AppDevelopment/GitHub/Zelta/Hairday/HairDay copy-Info.plist"; sourceTree = "<absolute>"; };
 		1B663B0B20A9A28D008C40DD /* HairDay PROD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HairDay PROD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B663B0C20A9A28D008C40DD /* HairDay QA copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "HairDay QA copy-Info.plist"; path = "/Users/enricoboller/Documents/AppDevelopment/GitHub/Zelta/Hairday/HairDay QA copy-Info.plist"; sourceTree = "<absolute>"; };
 		1B663B0D20A9A351008C40DD /* Info-QA.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-QA.plist"; sourceTree = "<group>"; };
 		1B663B0E20A9A351008C40DD /* Info-DEV.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-DEV.plist"; sourceTree = "<group>"; };
 		1B663B0F20A9A351008C40DD /* Info-PROD.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-PROD.plist"; sourceTree = "<group>"; };
@@ -524,6 +525,20 @@
 		1BEB038220AA370E005C9C81 /* ScalpCaptureWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScalpCaptureWireframe.swift; sourceTree = "<group>"; };
 		1BEB038820AA38FC005C9C81 /* ScalpCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScalpCaptureView.swift; sourceTree = "<group>"; };
 		1BEB038E20AA3C12005C9C81 /* AppDependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependencies.swift; sourceTree = "<group>"; };
+		1C230F8DA24C7F6D72844D96 /* Pods_HairDay_DEV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HairDay_DEV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		203F556B457A65FECA3D2560 /* Pods-HairDayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HairDayTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HairDayTests/Pods-HairDayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C9110B3E684A161372816E2 /* Pods_HairDayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HairDayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		476BF1012B443B9272C4D2EC /* Pods_HairDay_QA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HairDay_QA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E5F3DF90FD119256A7BFD5A /* Pods-HairDayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HairDayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HairDayTests/Pods-HairDayTests.release.xcconfig"; sourceTree = "<group>"; };
+		57DD2A184F61DA56265F419C /* Pods-HairDay DEV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HairDay DEV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HairDay DEV/Pods-HairDay DEV.debug.xcconfig"; sourceTree = "<group>"; };
+		642570D3F7979985FF484746 /* Pods_HairDay_PROD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HairDay_PROD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0B29CE3C5A8C53EF0226BC8 /* Pods-HairDay PROD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HairDay PROD.release.xcconfig"; path = "Pods/Target Support Files/Pods-HairDay PROD/Pods-HairDay PROD.release.xcconfig"; sourceTree = "<group>"; };
+		A84105D36371E7A2C7A4A8F2 /* Pods-HairDay QA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HairDay QA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HairDay QA/Pods-HairDay QA.debug.xcconfig"; sourceTree = "<group>"; };
+		A960EF610AE9D0FDBB2426B8 /* Pods-HairDay PROD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HairDay PROD.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HairDay PROD/Pods-HairDay PROD.debug.xcconfig"; sourceTree = "<group>"; };
+		D369E71BA834C90AB5AC7FFC /* Pods-HairDay DEV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HairDay DEV.release.xcconfig"; path = "Pods/Target Support Files/Pods-HairDay DEV/Pods-HairDay DEV.release.xcconfig"; sourceTree = "<group>"; };
+		D7ED14AC1D7C1D5E3EA6EE6D /* Pods_HairDayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HairDayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F77528DDAB25645CB21D2E27 /* Pods-HairDay QA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HairDay QA.release.xcconfig"; path = "Pods/Target Support Files/Pods-HairDay QA/Pods-HairDay QA.release.xcconfig"; sourceTree = "<group>"; };
+		FE8215442079658705E0B443 /* Pods-HairDayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HairDayUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HairDayUITests/Pods-HairDayUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -531,6 +546,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0450BA0CAD8750BF1B43A10E /* Pods_HairDay_QA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,6 +554,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				962B7C116F3C69784A4E8E1F /* Pods_HairDay_PROD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -545,6 +562,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A238C15E02902D4CBECCC63 /* Pods_HairDay_DEV.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -552,6 +570,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				801BEA71F172C1032D26693D /* Pods_HairDayTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,12 +578,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C2934ED4E8025DC4C966570 /* Pods_HairDayUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17FF1B1F6E3EF9E63AE9F7B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57DD2A184F61DA56265F419C /* Pods-HairDay DEV.debug.xcconfig */,
+				D369E71BA834C90AB5AC7FFC /* Pods-HairDay DEV.release.xcconfig */,
+				A960EF610AE9D0FDBB2426B8 /* Pods-HairDay PROD.debug.xcconfig */,
+				A0B29CE3C5A8C53EF0226BC8 /* Pods-HairDay PROD.release.xcconfig */,
+				A84105D36371E7A2C7A4A8F2 /* Pods-HairDay QA.debug.xcconfig */,
+				F77528DDAB25645CB21D2E27 /* Pods-HairDay QA.release.xcconfig */,
+				203F556B457A65FECA3D2560 /* Pods-HairDayTests.debug.xcconfig */,
+				4E5F3DF90FD119256A7BFD5A /* Pods-HairDayTests.release.xcconfig */,
+				11A4CC443BA47B433AA541B3 /* Pods-HairDayUITests.debug.xcconfig */,
+				FE8215442079658705E0B443 /* Pods-HairDayUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		1B12AB8B20ADC34A008EB164 /* EnterName */ = {
 			isa = PBXGroup;
 			children = (
@@ -681,8 +718,8 @@
 				1BB7506020A4240300A9F745 /* HairDayTests */,
 				1BB7506B20A4240400A9F745 /* HairDayUITests */,
 				1BB7504A20A4240300A9F745 /* Products */,
-				1B663AFE20A9A245008C40DD /* HairDay copy-Info.plist */,
-				1B663B0C20A9A28D008C40DD /* HairDay QA copy-Info.plist */,
+				17FF1B1F6E3EF9E63AE9F7B6 /* Pods */,
+				C473F709BB45A319FE1FAA0A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1649,6 +1686,18 @@
 			path = Protocols;
 			sourceTree = "<group>";
 		};
+		C473F709BB45A319FE1FAA0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C230F8DA24C7F6D72844D96 /* Pods_HairDay_DEV.framework */,
+				642570D3F7979985FF484746 /* Pods_HairDay_PROD.framework */,
+				476BF1012B443B9272C4D2EC /* Pods_HairDay_QA.framework */,
+				D7ED14AC1D7C1D5E3EA6EE6D /* Pods_HairDayTests.framework */,
+				3C9110B3E684A161372816E2 /* Pods_HairDayUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1656,9 +1705,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B663AFA20A9A245008C40DD /* Build configuration list for PBXNativeTarget "HairDay QA" */;
 			buildPhases = (
+				6130F803189941850AA1D68B /* [CP] Check Pods Manifest.lock */,
 				1B663AF220A9A245008C40DD /* Sources */,
 				1B663AF520A9A245008C40DD /* Frameworks */,
 				1B663AF620A9A245008C40DD /* Resources */,
+				4056F51A8FE9BE7564B45D9A /* [CP] Embed Pods Frameworks */,
+				A7E70A02D6CF30B480D4E3B5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1673,9 +1725,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B663B0820A9A28D008C40DD /* Build configuration list for PBXNativeTarget "HairDay PROD" */;
 			buildPhases = (
+				391381BB24F1EF9FE6EA0B63 /* [CP] Check Pods Manifest.lock */,
 				1B663B0020A9A28D008C40DD /* Sources */,
 				1B663B0320A9A28D008C40DD /* Frameworks */,
 				1B663B0420A9A28D008C40DD /* Resources */,
+				FE685AABF04A890CFA157274 /* [CP] Embed Pods Frameworks */,
+				8CFF3FF2DE6756416744F3E5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1690,9 +1745,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1BB7507120A4240400A9F745 /* Build configuration list for PBXNativeTarget "HairDay DEV" */;
 			buildPhases = (
+				BF2EC1E6BCD305C6B967A409 /* [CP] Check Pods Manifest.lock */,
 				1BB7504520A4240300A9F745 /* Sources */,
 				1BB7504620A4240300A9F745 /* Frameworks */,
 				1BB7504720A4240300A9F745 /* Resources */,
+				6C970E1AEED29721A5149E13 /* [CP] Embed Pods Frameworks */,
+				C5794792017EB5629F8A6BF7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1707,9 +1765,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1BB7507420A4240400A9F745 /* Build configuration list for PBXNativeTarget "HairDayTests" */;
 			buildPhases = (
+				54A62C4773DF2D4967EB4121 /* [CP] Check Pods Manifest.lock */,
 				1BB7505920A4240300A9F745 /* Sources */,
 				1BB7505A20A4240300A9F745 /* Frameworks */,
 				1BB7505B20A4240300A9F745 /* Resources */,
+				E16386538017375984277662 /* [CP] Embed Pods Frameworks */,
+				CF4F6F8B3614203CF7FB6E17 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1725,9 +1786,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1BB7507720A4240400A9F745 /* Build configuration list for PBXNativeTarget "HairDayUITests" */;
 			buildPhases = (
+				E86738737F847F7ADEA41718 /* [CP] Check Pods Manifest.lock */,
 				1BB7506420A4240400A9F745 /* Sources */,
 				1BB7506520A4240400A9F745 /* Frameworks */,
 				1BB7506620A4240400A9F745 /* Resources */,
+				B21E2FE26D3B33B6CD1B675B /* [CP] Embed Pods Frameworks */,
+				BBA865C7BD402E3CDAA58909 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1746,7 +1810,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Enrico Boller";
 				TargetAttributes = {
 					1B663AF120A9A245008C40DD = {
@@ -1802,7 +1866,6 @@
 				1B663AF720A9A245008C40DD /* LaunchScreen.storyboard in Resources */,
 				1B663AF820A9A245008C40DD /* Assets.xcassets in Resources */,
 				1B663B1720A9A351008C40DD /* Info-PROD.plist in Resources */,
-				1B663B1120A9A351008C40DD /* Info-QA.plist in Resources */,
 				1B663AF920A9A245008C40DD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1814,7 +1877,6 @@
 				1B663B1520A9A351008C40DD /* Info-DEV.plist in Resources */,
 				1B663B0520A9A28D008C40DD /* LaunchScreen.storyboard in Resources */,
 				1B663B0620A9A28D008C40DD /* Assets.xcassets in Resources */,
-				1B663B1820A9A351008C40DD /* Info-PROD.plist in Resources */,
 				1B663B1220A9A351008C40DD /* Info-QA.plist in Resources */,
 				1B663B0720A9A28D008C40DD /* Main.storyboard in Resources */,
 			);
@@ -1824,7 +1886,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B663B1320A9A351008C40DD /* Info-DEV.plist in Resources */,
 				1BB7505720A4240300A9F745 /* LaunchScreen.storyboard in Resources */,
 				1BB7505420A4240300A9F745 /* Assets.xcassets in Resources */,
 				1B663B1620A9A351008C40DD /* Info-PROD.plist in Resources */,
@@ -1848,6 +1909,264 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		391381BB24F1EF9FE6EA0B63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HairDay PROD-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4056F51A8FE9BE7564B45D9A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HairDay QA/Pods-HairDay QA-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HairDay QA/Pods-HairDay QA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54A62C4773DF2D4967EB4121 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HairDayTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6130F803189941850AA1D68B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HairDay QA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C970E1AEED29721A5149E13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HairDay DEV/Pods-HairDay DEV-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HairDay DEV/Pods-HairDay DEV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CFF3FF2DE6756416744F3E5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HairDay PROD/Pods-HairDay PROD-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7E70A02D6CF30B480D4E3B5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HairDay QA/Pods-HairDay QA-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B21E2FE26D3B33B6CD1B675B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HairDayUITests/Pods-HairDayUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HairDayUITests/Pods-HairDayUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBA865C7BD402E3CDAA58909 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HairDayUITests/Pods-HairDayUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF2EC1E6BCD305C6B967A409 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HairDay DEV-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5794792017EB5629F8A6BF7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HairDay DEV/Pods-HairDay DEV-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF4F6F8B3614203CF7FB6E17 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HairDayTests/Pods-HairDayTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E16386538017375984277662 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HairDayTests/Pods-HairDayTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HairDayTests/Pods-HairDayTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E86738737F847F7ADEA41718 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HairDayUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE685AABF04A890CFA157274 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HairDay PROD/Pods-HairDay PROD-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HairDay PROD/Pods-HairDay PROD-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1B663AF220A9A245008C40DD /* Sources */ = {
@@ -2307,9 +2626,11 @@
 /* Begin XCBuildConfiguration section */
 		1B663AFB20A9A245008C40DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A84105D36371E7A2C7A4A8F2 /* Pods-HairDay QA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T63SXPM4PS;
 				INFOPLIST_FILE = "HairDay/Support Files/Info-QA.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zeltatech.HairDay;
@@ -2321,9 +2642,11 @@
 		};
 		1B663AFC20A9A245008C40DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F77528DDAB25645CB21D2E27 /* Pods-HairDay QA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T63SXPM4PS;
 				INFOPLIST_FILE = "HairDay/Support Files/Info-QA.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zeltatech.HairDay;
@@ -2335,9 +2658,11 @@
 		};
 		1B663B0920A9A28D008C40DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A960EF610AE9D0FDBB2426B8 /* Pods-HairDay PROD.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T63SXPM4PS;
 				INFOPLIST_FILE = "HairDay/Support Files/Info-PROD.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zeltatech.HairDay;
@@ -2349,9 +2674,11 @@
 		};
 		1B663B0A20A9A28D008C40DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0B29CE3C5A8C53EF0226BC8 /* Pods-HairDay PROD.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T63SXPM4PS;
 				INFOPLIST_FILE = "HairDay/Support Files/Info-PROD.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zeltatech.HairDay;
@@ -2375,6 +2702,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -2382,6 +2710,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -2409,7 +2738,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -2432,6 +2761,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -2439,6 +2769,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -2460,7 +2791,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -2470,6 +2801,7 @@
 		};
 		1BB7507220A4240400A9F745 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57DD2A184F61DA56265F419C /* Pods-HairDay DEV.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -2486,6 +2818,7 @@
 		};
 		1BB7507320A4240400A9F745 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D369E71BA834C90AB5AC7FFC /* Pods-HairDay DEV.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -2502,6 +2835,7 @@
 		};
 		1BB7507520A4240400A9F745 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 203F556B457A65FECA3D2560 /* Pods-HairDayTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -2518,6 +2852,7 @@
 		};
 		1BB7507620A4240400A9F745 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E5F3DF90FD119256A7BFD5A /* Pods-HairDayTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -2534,6 +2869,7 @@
 		};
 		1BB7507820A4240400A9F745 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11A4CC443BA47B433AA541B3 /* Pods-HairDayUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -2549,6 +2885,7 @@
 		};
 		1BB7507920A4240400A9F745 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE8215442079658705E0B443 /* Pods-HairDayUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
